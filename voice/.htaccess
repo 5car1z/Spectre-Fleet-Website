@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^voice\.spectrefleet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.voice\.spectrefleet\.com$
+RewriteRule ^/?$ "http\:\/\/74\.63\.229\.170" [R=301,L]
+
