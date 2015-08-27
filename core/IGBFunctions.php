@@ -8,7 +8,7 @@
  * @since 20150827
  */
 function checkIGB() {
-    if (preg_match('/EVE-IGB/', $_SERVER['HTTP_USER_AGENT']) {
+    if (preg_match('/EVE-IGB/', $_SERVER['HTTP_USER_AGENT'])) {
         return true;
     } else {
         return false;
