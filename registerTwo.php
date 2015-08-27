@@ -1,5 +1,6 @@
 <?php
 @session_start();
+include 'conf.php';
 
 date_default_timezone_set('America/Los_Angeles'); //get fucked, euronerds // NO U
 mb_internal_encoding("UTF-8");
@@ -22,9 +23,7 @@ if (!isset($_POST['email']) || !isset($_POST['fname']) || !isset($_POST['lname']
 		if ($cap != $inputCap){
 			die('<div class="warning"><i class="fa fa-warning"></i>Invalid captcha</div>');
 		}
-		$TOKEN = "xoxs-3152905981-3224893926-3224893984-3d34e44a31";
 		$URL = "https://spectrefleet.slack.com/api/users.admin.invite?t=".time();
-		$CHANNELS = "C034GSMV7";
 		$email = $_POST['email'];
 		if (!filter_var( $email, FILTER_VALIDATE_EMAIL )) {
 			die('<div class="warning"><i class="fa fa-warning"></i>Email invalid.</div>');
