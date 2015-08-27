@@ -1,6 +1,21 @@
 <?php
 
 /**
+ * Checks whether or not the client is using the EVE IGB.
+ *
+ * @author Lill Oddleif <lill@lilloddleif.com>
+ * @return boolean Whether or not the IGB is used.
+ * @since 20150827
+ */
+function checkIGB() {
+    if (preg_match('/EVE-IGB/', $_SERVER['HTTP_USER_AGENT']) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+/**
  * Prints a JavaScript function used in the IGB to display a fitting
  * represented by the DNA string in the fitting parameter.
  *
