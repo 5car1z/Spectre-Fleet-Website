@@ -1,3 +1,7 @@
+<?php
+require_once "core/IGBFunctions.php";
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -49,13 +53,15 @@
 						<div class="col-sm-5">
 							<h2>Spectre Fleet</h2>
 							<h3>The content machine</h3>
+							<?php if (checkIGB()) { ?>
 							<div align="center">
 								<div class="col-sm-12">
 									<div style="padding: 60px 0 0;">
-										<a class="button--arrow landing red" href="#" style="font-family: 'Arial', sans-serif; font-size: 0.8em; white-space: nowrap;" onclick="CCPEVE.requestTrust('http://spectrefleet.com');CCPEVE.joinChannel('Spectre Fleet');"><span class="button--arrow-text">X up now in Spectre Fleet!</span></a>
+										<a class="button--arrow landing red" href="#" style="font-family: 'Arial', sans-serif; font-size: 0.8em; white-space: nowrap;" onclick="<?php printRequestTrust(); ?>;<?php printJoinChannel(); ?>"><span class="button--arrow-text">X up now in Spectre Fleet!</span></a>
 									</div>
 								</div>
 							</div>
+							<?php } ?>
 						</div>
 						<div class="col-sm-7">
 							<div class="video-container">
