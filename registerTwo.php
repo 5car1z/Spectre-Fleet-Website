@@ -23,7 +23,7 @@ if (!isset($_POST['email']) || !isset($_POST['fname']) || !isset($_POST['lname']
 		if ($cap != $inputCap){
 			die('<div class="warning"><i class="fa fa-warning"></i>Invalid captcha</div>');
 		}
-		$URL = "https://spectrefleet.slack.com/api/users.admin.invite?t=".time();
+		$URL = $BASE_URL.time();
 		$email = $_POST['email'];
 		if (!filter_var( $email, FILTER_VALIDATE_EMAIL )) {
 			die('<div class="warning"><i class="fa fa-warning"></i>Email invalid.</div>');
