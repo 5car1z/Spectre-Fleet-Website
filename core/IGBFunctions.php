@@ -16,6 +16,21 @@ function checkIGB() {
 }
 
 /**
+ * Checks whether or not the client has issued trust.
+ * 
+ * @author Lill Oddleif <lill@lilloddleif.com>
+ * @return boolean Whether or not trust is issues.
+ * @since 20150828
+ */
+function checkTrust() {
+	if (preg_match('Yes', $_SERVER['HTTP_EVE_TRUST'])) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+/**
  * Prints a JavaScript function used in the IGB to display a fitting
  * represented by the DNA string in the fitting parameter.
  *

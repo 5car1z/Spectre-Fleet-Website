@@ -54,13 +54,23 @@ require_once "core/IGBFunctions.php";
 							<h2>Spectre Fleet</h2>
 							<h3>The content machine</h3>
 							<?php if (checkIGB()) { ?>
-							<div align="center">
-								<div class="col-sm-12">
-									<div style="padding: 60px 0 0;">
-										<a class="button--arrow landing red" href="#" style="font-family: 'Arial', sans-serif; font-size: 0.8em; white-space: nowrap;" onclick="<?php printRequestTrust(); ?>;<?php printJoinChannel(); ?>"><span class="button--arrow-text">X up now in Spectre Fleet!</span></a>
+								<?php if (!checkTrust()) { ?>
+									<div align="center">
+										<div class="col-sm-12">
+											<div style="padding: 60px 0 0;">
+												<a class="button--arrow landing red" href="#" style="font-family: 'Arial', sans-serif; font-size: 0.8em; white-space: nowrap;" onclick="<?php printRequestTrust(); refresh(); ?>"><span class="button--arrow-text">Install Spectre Fleet as trusted</span></a>
+											</div>
+										</div>
 									</div>
-								</div>
-							</div>
+								<?php } else { ?>
+									<div align="center">
+										<div class="col-sm-12">
+											<div style="padding: 60px 0 0;">
+												<a class="button--arrow landing red" href="#" style="font-family: 'Arial', sans-serif; font-size: 0.8em; white-space: nowrap;" onclick="<?php printJoinChannel(); ?>"><span class="button--arrow-text">X up now in Spectre Fleet!</span></a>
+											</div>
+										</div>
+									</div>
+								<?php } ?>
 							<?php } ?>
 						</div>
 						<div class="col-sm-7">
