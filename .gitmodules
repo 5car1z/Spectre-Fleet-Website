@@ -1,0 +1,3 @@
+[submodule "lib/phealng"]
+	path = lib/phealng
+	url = https://github.com/3rdpartyeve/phealng.git
