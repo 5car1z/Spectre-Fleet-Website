@@ -45,7 +45,8 @@ $_SESSION['captcha'] = $cap;
         <meta charset='utf-8'>
         <title>Spectre Fleet - The largest and best NPSI Community in EVE Online</title>
         <meta content="Spectre Fleet is the biggest NPSI community in the MMO EVE Online. You can join us by joining our in game channel Spectre Fleet and whenever there's a fleet, X up!" name="description">
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="/lib/Font-Awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- FIXME: load these in locally -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
         <style>
@@ -264,8 +265,6 @@ $_SESSION['captcha'] = $cap;
         </style>
     </head>
     <body>
-        <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
         <div class="wrapper">
             <div class="message"></div><br>
             <h1>Register A Spectre Fleet Slack account</h1>
@@ -298,7 +297,7 @@ $_SESSION['captcha'] = $cap;
                 <a href="https://spectrefleet.slack.com/messages/general/">Head to the Slack page!</a>
             </p>
         </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="/lib/jquery/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script>
             $(document).ready(function() {
                 $('#register').submit(function() {
@@ -355,13 +354,6 @@ $_SESSION['captcha'] = $cap;
                 $('.captcha-help').slideUp(500);
             });
         </script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-57291654-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+        <script src="/js/google-analytics.js" type="text/javascript"></script>
     </body>
 </html>
