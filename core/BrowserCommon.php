@@ -8,7 +8,7 @@
  * @since 20150828
  */
 function checkDNT() {
-    return (isset($_SERVER['HTTP_DNT']) && $_SERVER['HTTP_DNT'] == 1);
+    return (isset($_SERVER['HTTP_DNT']) && $_SERVER['HTTP_DNT'] == 1 && getCanIgnoreDNT == 1);
 }
 
 /**
