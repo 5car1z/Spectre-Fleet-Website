@@ -1,25 +1,23 @@
 <?php
 //This is a configuration file for DB and slack integration.
 
-#########################
-#Slack
-#########################
-
+////////
+// Slack
+////////
 // The xoxs-xxxxx- long string for external integrations from Slack
-$TOKEN = "";
+$TOKEN = ""
 // Slack registration requires "default channels"
 $CHANNELS = ""; 
 // Auth URL
 $TEAM_NAME = "";
 $BASE_URL = "https://{$TEAM_NAME}.slack.com/api/users.admin.invite?t="
 
-#########################
-#Database
-#########################
+///////////
+// Database
+///////////
 $DB = "";
 $HOST = "localhost";
 $USER = "";
 $PW = "";
-
 
 ?>
