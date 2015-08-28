@@ -76,7 +76,7 @@ require_once "core/IGBFunctions.php";
                         <div class="col-sm-7">
                         	<?php if (checkIGB() == 0) { ?>
                             <div class="video-container">
-                                <video controls height="280" width="500">
+                                <video controls>
                                     <source src="/assets/provibloc.mp4" type="video/mp4">
                                 </video>
                             </div>
