@@ -76,6 +76,29 @@ function printRequestTrust() {
 }
 
 /**
+ * Prints a JavaScript function used in the IGB to open a showInfo
+ * blob.
+ * 
+ * @author Lill Oddleif <lill@lilloddleif.com>
+ * @param integer $typeID Type ID of item to show info on.
+ * @param integer $itemID Optional itemID of specific item of type
+ *                        $typeID to show info on. This is required for
+ *                        specific types of items, such as solar
+ *                        systems, stations, regions and
+ *                        constellations. Passing 0 will not print an
+ *                        itemID in the JavaScript function.
+ * @since 20150828
+ */
+function printShowInfo() {
+    if ($itemID == "0") {
+    	echo "CCPEVE.showInfo(" . $typeID . ")";
+    } else {
+    	echo "CCPEVE.showInfo(" . $typeID . ", " . $itemID . ")";
+    }
+}
+
+
+/**
  * Refreshes the page.
  *
  * @author Lill Oddleif <lill@lilloddleif.com>

@@ -47,8 +47,8 @@ $_SESSION['captcha'] = $cap;
         <meta content="Spectre Fleet is the biggest NPSI community in the MMO EVE Online. You can join us by joining our in game channel Spectre Fleet and whenever there's a fleet, X up!" name="description">
         <link href="/lib/Font-Awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <!-- FIXME: load these in locally -->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+        <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+        <link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
         <style>
             body {
                 background: url("img/layout/register-bg.jpg") #000;

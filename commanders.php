@@ -1,3 +1,7 @@
+<?php
+require_once "core/IGBFunctions.php";
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -72,18 +76,18 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <?php include "profiles/jayne.php"; ?>
+                            <?php include "includes/profiles/jayne.php"; ?>
                         </div>
                         <div class="col-sm-6">
-                            <?php include "profiles/apex.php"; ?>
+                            <?php include "includes/profiles/apex.php"; ?>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <?php include "profiles/riotrick.php"; ?>
+                            <?php include "includes/profiles/riotrick.php"; ?>
                         </div>
                         <div class="col-sm-6">
-                            <?php include "profiles/vorn.php"; ?>
+                            <?php include "includes/profiles/vorn.php"; ?>
                         </div>
                     </div>
                 </div>
@@ -99,80 +103,80 @@
                         </div>
                         <div class="row">
                             <article class="col-sm-3">
-                                <?php include "profiles/alterari.php"; ?>
+                                <?php include "includes/profiles/alterari.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/armed1.php"; ?>
+                                <?php include "includes/profiles/armed1.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/cahvus.php"; ?>
+                                <?php include "includes/profiles/cahvus.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/calasian.php"; ?>
-                            </article>
-                        </div>
-                        <div class="row">
-                            <article class="col-sm-3">
-                                <?php include "profiles/darthA30nz.php"; ?>
-                            </article>
-                            <article class="col-sm-3">
-                                <?php include "profiles/douglas.php"; ?>
-                            </article>
-                            <article class="col-sm-3">
-                                <?php include "profiles/ethien.php"; ?>
-                            </article>
-                            <article class="col-sm-3">
-                                <?php include "profiles/hypocondeact.php"; ?>
+                                <?php include "includes/profiles/calasian.php"; ?>
                             </article>
                         </div>
                         <div class="row">
                             <article class="col-sm-3">
-                                <?php include "profiles/isaiah.php"; ?>
+                                <?php include "includes/profiles/darthA30nz.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/jakemiester.php"; ?>
+                                <?php include "includes/profiles/douglas.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/jessan.php"; ?>
+                                <?php include "includes/profiles/ethien.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/johndrees.php"; ?>
-                            </article>
-                        </div>
-                        <div class="row">
-                            <article class="col-sm-3">
-                                <?php include "profiles/knezzy.php"; ?>
-                            </article>
-                            <article class="col-sm-3">
-                                <?php include "profiles/ninja.php"; ?>
-                            </article>
-                            <article class="col-sm-3">
-                                <?php include "profiles/quantum.php"; ?>
-                            </article>
-                            <article class="col-sm-3">
-                                <?php include "profiles/robyn.php"; ?>
+                                <?php include "includes/profiles/hypocondeact.php"; ?>
                             </article>
                         </div>
                         <div class="row">
                             <article class="col-sm-3">
-                                <?php include "profiles/smog890.php"; ?>
+                                <?php include "includes/profiles/isaiah.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/sotoducani.php"; ?>
+                                <?php include "includes/profiles/jakemiester.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/starbuck.php"; ?>
+                                <?php include "includes/profiles/jessan.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/theparadine.php"; ?>
+                                <?php include "includes/profiles/johndrees.php"; ?>
                             </article>
                         </div>
                         <div class="row">
                             <article class="col-sm-3">
-                                <?php include "profiles/tigertesla.php"; ?>
+                                <?php include "includes/profiles/knezzy.php"; ?>
                             </article>
                             <article class="col-sm-3">
-                                <?php include "profiles/wolfvaine.php"; ?>
+                                <?php include "includes/profiles/ninja.php"; ?>
+                            </article>
+                            <article class="col-sm-3">
+                                <?php include "includes/profiles/quantum.php"; ?>
+                            </article>
+                            <article class="col-sm-3">
+                                <?php include "includes/profiles/robyn.php"; ?>
+                            </article>
+                        </div>
+                        <div class="row">
+                            <article class="col-sm-3">
+                                <?php include "includes/profiles/smog890.php"; ?>
+                            </article>
+                            <article class="col-sm-3">
+                                <?php include "includes/profiles/sotoducani.php"; ?>
+                            </article>
+                            <article class="col-sm-3">
+                                <?php include "includes/profiles/starbuck.php"; ?>
+                            </article>
+                            <article class="col-sm-3">
+                                <?php include "includes/profiles/theparadine.php"; ?>
+                            </article>
+                        </div>
+                        <div class="row">
+                            <article class="col-sm-3">
+                                <?php include "includes/profiles/tigertesla.php"; ?>
+                            </article>
+                            <article class="col-sm-3">
+                                <?php include "includes/profiles/wolfvaine.php"; ?>
                             </article>
                         </div>
                     </div>
