@@ -44,8 +44,8 @@ require_once "core/IGBFunctions.php";
                 <div class="texture"></div>
                 <div id="vidcontainer">
                     <div class="inner">
-                        <video autoplay id="vid2000" loop= poster="/img/layout/cover.jpg">
-                        <source src="/video/eve_background.webm" type="video/webm"></video>
+                        <video autoplay id="vid2000" loop poster="/img/layout/cover.jpg">
+                        <source src="/assets/eve_background.webm" type="video/webm"></video>
                     </div>
                 </div>
                 <div class="container">
