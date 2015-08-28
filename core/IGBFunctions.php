@@ -19,7 +19,7 @@ function checkIGB() {
  * Checks whether or not the client has issued trust.
  * 
  * @author Lill Oddleif <lill@lilloddleif.com>
- * @return boolean Whether or not trust is issues.
+ * @return boolean Whether or not trust is issued.
  * @since 20150828
  */
 function checkTrust() {

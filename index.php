@@ -74,9 +74,13 @@ require_once "core/IGBFunctions.php";
                             <?php } ?>
                         </div>
                         <div class="col-sm-7">
+                        	<?php if (checkIGB() == 0) { ?>
                             <div class="video-container">
-                                <iframe height="280" src="//www.youtube.com/embed/mIRv2yhS5cA?hd=1&amp;rel=0&amp;autohide=1&amp;showinfo=0;&amp;wmode=transparent" width="500"></iframe>
+                                <video controls height="280" width="500">
+                                    <source src="/assets/provibloc.mp4" type="video/mp4">
+                                </video>
                             </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
