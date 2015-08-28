@@ -23,7 +23,23 @@ function checkIGB() {
  * @since 20150828
  */
 function checkTrust() {
-	return (isset($_SERVER['HTTP_EVE_TRUST']) && $_SERVER['HTTP_EVE_TRUST'] == "Yes");
+	// Apache will silently drop headers it considers to contain
+	// invalid characters, in our case, underscores. This is a
+	// workaround.
+    if (preg_match('/Apache/', apache_get_version())) {
+        $apacheHeaderArray = apache_request_headers();
+        if ($apacheHeaderArray['EVE_TRUSTED'] == "Yes") {
+            return true;
+        } else {
+            return false;
+        }
+    } else {
+        if ($_SERVER['HTTP_EVE_TRUSTED'] == "Yes") {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
 
 /**
@@ -46,7 +62,7 @@ function printFitting($fitting) {
  * @since 20150827
  */
 function printJoinChannel() {
-    echo "CCPEve.joinChannel('Spectre Fleet')";
+    echo "CCPEVE.joinChannel('Spectre Fleet')";
 }
 
 /**
@@ -57,7 +73,7 @@ function printJoinChannel() {
  * @since 20150827
  */
 function printJoinMailingList() {
-    echo "CCPEve.joinMailingList('Spectre Fleet')";
+    echo "CCPEVE.joinMailingList('Spectre Fleet')";
 }
 
 /**
@@ -68,7 +84,7 @@ function printJoinMailingList() {
  * @since 20150827
  */
 function printRequestTrust() {
-    echo "CCPEve.requestTrust('http://spectrefleet.com')";
+    echo "CCPEVE.requestTrust('http://spectrefleet.com')";
 }
 
 /**
