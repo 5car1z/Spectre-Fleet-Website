@@ -23,7 +23,7 @@ function checkIGB() {
  * @since 20150828
  */
 function checkTrust() {
-	if (preg_match('Yes', $_SERVER['HTTP_EVE_TRUST'])) {
+	if (preg_match('/Yes/', $_SERVER['HTTP_EVE_TRUST'])) {
 		return true;
 	} else {
 		return false;
