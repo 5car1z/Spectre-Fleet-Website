@@ -143,7 +143,7 @@ require_once "core/IGBFunctions.php";
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <h2 style="text-align: left !important;"><a href="http://community.eveonline.com/news/dev-blogs/" target="_blank">Devblogs</a></h2>
+                            <h2 style="text-align: left !important;"><a href="https://community.eveonline.com/news/dev-blogs/" target="_blank">Devblogs</a></h2>
                             <div style="border: 15px solid rgba(255,255,255,0.8); -moz-box-shadow:0 0 10px rgba(0,0,0,0.75); -webkit-box-shadow:0 0 10px rgba(0,0,0,0.75); box-shadow:0 0 10px rgba(0,0,0,0.75); margin-bottom:25px;background:#fff;">
                                 <script src="js/devblogs.rssmikle.js" type="text/javascript"></script>
                             </div>
@@ -164,8 +164,8 @@ require_once "core/IGBFunctions.php";
                                         </video>
                                     </div>
                                 <?php } ?>
-                                <p><a href="http://www.themittani.com/news/storm-kamela-npsi-vs-pandemic-legion">
-                                <b>The Storm of Kamela</b></a> On October 2nd, Spectre Fleet formed its largest Battleship fleet, supported by Guardians and Triage Carriers. The fighting was fierce and immediate, as two back to back engagements saw over 60B ISK destoryed in a single system.<br><br><a href="http://www.themittani.com/news/storm-kamela-npsi-vs-pandemic-legion">Read more about this fight on TheMittani.com</a></p>
+                                <p><a href="https://www.themittani.com/news/storm-kamela-npsi-vs-pandemic-legion">
+                                <b>The Storm of Kamela</b></a> On October 2nd, Spectre Fleet formed its largest Battleship fleet, supported by Guardians and Triage Carriers. The fighting was fierce and immediate, as two back to back engagements saw over 60B ISK destoryed in a single system.<br><br><a href="https://www.themittani.com/news/storm-kamela-npsi-vs-pandemic-legion">Read more about this fight on TheMittani.com</a></p>
                             </article>
                             <article class="col-sm-6">
                                 <?php if (checkIGB() == 0) { ?>
@@ -175,7 +175,7 @@ require_once "core/IGBFunctions.php";
                                         </video>
                                     </div>
                                 <?php } ?>
-                                <p><a href="http://www.themittani.com/news/alod-aldali-project-0"><b>The Aldali Project</b></a> The first Supercarrier kill claimed by an NPSI organization too place on October 8th, when Ninja Utioh assembled a small group of people form Spectre Fleet to hunt and catch a Hel.<br><br><br><a href="http://www.themittani.com/news/alod-aldali-project-0">Read more about their hunt on TheMittani.com</a> </p>
+                                <p><a href="https://www.themittani.com/news/alod-aldali-project-0"><b>The Aldali Project</b></a> The first Supercarrier kill claimed by an NPSI organization too place on October 8th, when Ninja Utioh assembled a small group of people form Spectre Fleet to hunt and catch a Hel.<br><br><br><a href="https://www.themittani.com/news/alod-aldali-project-0">Read more about their hunt on TheMittani.com</a> </p>
                             </article>
                         </div>
                         <div class="row">
@@ -187,7 +187,7 @@ require_once "core/IGBFunctions.php";
                                         </video>
                                     </div>
                                 <?php } ?>
-                                <p><a href="http://www.themittani.com/news/alod-thousand-cuts"><b>Death by a Thousand Cuts</b></a> On July 27th, Spectre Fleet departed highsec with a fleet of two hundred interceptors intent on completing a full loop of nullsec, requiring over four hundred gate jumps in total. Not thirty jumps into their planned route, they accidentally caught and killed seven carriers.<br><br><a  href="http://www.themittani.com/news/alod-thousand-cuts">Read about the fight on TheMittani.com</a></p>
+                                <p><a href="https://www.themittani.com/news/alod-thousand-cuts"><b>Death by a Thousand Cuts</b></a> On July 27th, Spectre Fleet departed highsec with a fleet of two hundred interceptors intent on completing a full loop of nullsec, requiring over four hundred gate jumps in total. Not thirty jumps into their planned route, they accidentally caught and killed seven carriers.<br><br><a  href="https://www.themittani.com/news/alod-thousand-cuts">Read about the fight on TheMittani.com</a></p>
                             </article>
                             <article class="col-sm-6">
                                 <?php if (checkIGB() == 0) { ?>
