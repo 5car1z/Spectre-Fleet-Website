@@ -149,8 +149,8 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <h2>Mantank</h2>
-                            <h3>Apex is a fucking autist sperglord.</h3>
-                            <p>This is a stupid fucking idea by a stupid fuckface. Fuck.</p>
+                            <h3>HTFU</h3>
+                            <p>To be determined...</p>
                         </div>
                     </div>
                 </div>
