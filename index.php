@@ -74,12 +74,12 @@ require_once "core/IGBFunctions.php";
                             <?php } ?>
                         </div>
                         <div class="col-sm-7">
-                        	<?php if (checkIGB() == 0) { ?>
-                            <div class="video-container">
-                                <video controls>
-                                    <source src="/assets/provibloc.mp4" type="video/mp4">
-                                </video>
-                            </div>
+                            <?php if (checkIGB() == 0) { ?>
+                                <div class="video-container">
+                                    <video controls width="100%">
+                                        <source src="/assets/provibloc.mp4" type="video/mp4">
+                                    </video>
+                                </div>
                             <?php } ?>
                         </div>
                     </div>
