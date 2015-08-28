@@ -1,7 +1,3 @@
-<?php
-require_once "core/IGBFunctions.php";
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -74,9 +70,9 @@ require_once "core/IGBFunctions.php";
                         </div>
                     </div>
                     <div class="row">
-			<div class="col-sm-6">
-                            <a class="embedly-card" href="http://www.twitch.tv/spectrefleet">SpectreFleet</a>
-			    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+                         <div class="col-sm-6">
+                             <a class="embedly-card" href="http://www.twitch.tv/spectrefleet">SpectreFleet</a>
+                             <script src="/js/twitch.min.js" type="text/javascript"></script>
                         </div>
                     </div>
                 </div>
