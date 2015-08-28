@@ -1,3 +1,7 @@
+<?php
+require_once "../core/BrowserCommon.php";
+?>
+
 <div class="push"></div>
     <footer class="main-content" id="footer">
         <div class="wrapper-landing clearfix">
@@ -11,6 +15,8 @@
         </div>
     </footer>
 	<script src="/lib/jquery/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="/js/google-analytics.js" type="text/javascript"></script>
+	<?php if (checkDNT() == 0) { ?>
+        <script src="/js/google-analytics.js" type="text/javascript"></script>
+	<?php } ?>
 </body>
 </html>
