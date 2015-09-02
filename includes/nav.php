@@ -28,7 +28,7 @@
 		    <li><a href="/wargaming">Join Spectre</a></li>
 		</ul>
 	    </li>
-	    <li <?php getPage("othergames"); ?> ><a href="#">Other Games</a>
+	    <li <?php getPage("other-games"); ?> ><a href="/other-games">Other Games</a>
 	    </li>
             <li <?php getPage("feedback");getPage("slack-register"); ?> ><a href="#">Tools</a>
                 <ul class="i3">
