@@ -12,7 +12,7 @@ require_once "core/IGBFunctions.php";
     <body id="landing">
         <?php include "includes/nav.php"; ?>
        <main class="main-content" id="mainstuff" role="main">
-            <section id="intro">
+            <section id="intro" style="padding-top: 20px !important;">
                 <div class="texture"></div>
                 <div id="vidcontainer">
                     <div class="inner">
@@ -93,7 +93,7 @@ Good News! Slack has gateways that will allows you to connect to the Spectre Fle
 				 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h2 style="text-align: center !important; margin-top: 40px !important;">Join Spectre Fleet Slack Today!</h2>
+                            <h2 style="text-align: center !important; margin-top: 20px !important;"><a href="http://dev.spectrefleet.com/slack-register">Join Spectre Fleet Slack!</a></h2>
                         </div>
                     </div>
                     <div class="row">
