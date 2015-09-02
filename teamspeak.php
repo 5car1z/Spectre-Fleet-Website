@@ -82,7 +82,7 @@ require_once "core/IGBFunctions.php";
                             <div class="col-sm-6">
 							<h2><a href="#">Teamspeak 3</a></h2>
 								<p>
-Teamspeak is a voice communication tool that allows players to communicate outside of the game client. The teamspeak is open for everyone to use, and is not password protected. If you'd like a custom channel added to the Spectre Fleet Teamspeak, contact a commander and we'll make you a channel to use as you please.
+Teamspeak is a voice communication tool that allows players to communicate outside of a game client. The teamspeak is open for everyone to use and is not password protected. If you'd like a custom channel added to the Spectre Fleet Teamspeak, contact a commander and we'll make you a channel to use as you please.
 								</p>
                             </div>
                         </div>
