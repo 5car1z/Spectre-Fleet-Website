@@ -19,6 +19,7 @@ require_once "core/IGBFunctions.php";
 		    <div>
                         <a href="http://twitter.com/Spectre_Fleet"><img src="/img/layout/TwitterLogo_blue.png" width="64px"/></a>
 		        <a href="https://www.youtube.com/c/SpectrefleetGaming"><img src="/img/layout/YouTube-social-circle_red_128px.png" width="48px"/></a>
+				<a href="https://www.patreon.com/Spectre_Fleet?ty=h"><img src="/img/layout/patreon_logo.png" width="48px"/></a>
                     </div>
                 </div>
             </section>
