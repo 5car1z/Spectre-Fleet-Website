@@ -30,7 +30,7 @@
 	    </li>
 	    <li <?php getPage("other-games"); ?> ><a href="/other-games">Other Games</a>
 	    </li>
-            <li <?php getPage("feedback");getPage("slack-register"); ?> ><a href="#">Tools</a>
+            <li <?php getPage("feedback");getPage("slack-register");getPage("teamspeak"); ?> ><a href="#">Tools</a>
                 <ul class="i3">
 					<li><a href="/feedback">Feedback Form</a> </li>
 					<li class="col1"><a href="/teamspeak">Teamspeak 3</a> </li>
