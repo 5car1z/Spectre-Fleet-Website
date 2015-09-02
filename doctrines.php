@@ -72,7 +72,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                            <p>Although Spectre Fleet flies more than what is listed below, these doctrines are a collection of our most popular and commonly used fleet compositions. Here you can find a brief description of the doctrine, as well as the philosophy behind them, and what they are used for. For the actual fitting list for these doctrines, use the in-game mailing list &quot;Spectre Doctrine&quot;</p>
+                            <p class="text-center">Although Spectre Fleet flies more than what is listed below, these doctrines are a collection of our most popular and commonly used fleet compositions. Here you can find a brief description of the doctrine, as well as the philosophy behind them, and what they are used for.</p>
                         </div>
                     </div>
                 </div>
