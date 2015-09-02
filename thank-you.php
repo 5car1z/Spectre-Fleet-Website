@@ -12,7 +12,7 @@
                 <div class="container">
                     <h2 class="title">Thank You!</h2>
 		    <div>
-		        <img src="http://i.imgur.com/5T7KyOQ.gif#embed">
+		        <img src="http://i.imgur.com/5T7KyOQ.gif#embed" style="padding-bottom:35px;">
 		    </div>
                 </div>
             </section>
