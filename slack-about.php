@@ -63,22 +63,6 @@ require_once "core/IGBFunctions.php";
                     </div>
                 </nav>
 				
-				
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h2 style="text-align: center !important; margin-top: 40px !important;">Looking to participate in Spectre Fleet's Wargaming Branch? Look no further!</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p></p>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-				
-				
             </section>
                 <section id="spaceships">
                     <div class="container">
