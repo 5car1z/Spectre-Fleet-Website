@@ -62,7 +62,7 @@ require_once "core/IGBFunctions.php";
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h2 style="text-align: center !important; margin-top: 40px !important;">Looking to participate in Spectre Fleet's Wargaming Branch? Look no further!</h2>
+                            <h2 style="text-align: center !important; margin-top: 40px !important;">Donate today to support Spectre Fleet!</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -77,7 +77,7 @@ require_once "core/IGBFunctions.php";
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
-							<h2>Donate to Spectre Fleet</h2>
+							<h2><a href="">Donate to Spectre Fleet</a></h2>
 								<p>
 									The Spectre Fleet Gaming Community provides our services free of charge to all members of the community, and the Community itself is run by a large group of volunteers. Donations help us pay for hosting fees, and any extra donations will be forwarded as rewards to the commanders, developers, and streamers who help make this community possible. If you'd like to make a one-time donation, please use the paypal link below. To pledge your support on a monthly basis, please check out our Patreon page and associated funding goals. If you'd like to donate your time and become a part of the Spectre Fleet team, please contact a commander and help us make this community the best in Gaming.
 								</p>
