@@ -23,9 +23,9 @@
 					<li><a href="/doctrines">Doctrines</a></li>
 				</ul>
 			</li>
-			<li <?php getPage("wargaming"); ><a href="#">Wargaming</a>
+			<li <?php getPage("wargaming"); ?><a href="#">Wargaming</a>
 			</li>
-			<li <?php getPage("othergames"); ><a href="#">Other Games</a>
+			<li <?php getPage("othergames"); ?><a href="#">Other Games</a>
 			</li>
             <li <?php getPage("feedback");getPage("slack-register"); ?> ><a href="#">Tools</a>
                 <ul class="i3">
