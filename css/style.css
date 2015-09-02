@@ -1507,11 +1507,6 @@ body#landing {
     padding-bottom:25px
 }
 
-#landing section#goose{
-    padding-top:25px;
-    padding-bottom:25px
-}
-
 #landing section#longbows{
     padding-top:25px;
     padding-bottom:25px
@@ -1523,11 +1518,6 @@ body#landing {
 }
 
 #landing section#firebug{
-    padding-top:25px;
-    padding-bottom:25px
-}
-
-#landing section#mantank{
     padding-top:25px;
     padding-bottom:25px
 }
@@ -1854,7 +1844,7 @@ body#landing {
     display:block;
     font-size:25px;
     text-align:center;
-    width:200px
+    width:200px;
 }
 
 #landing #intro .buy a span {
@@ -3403,7 +3393,7 @@ margin: 0px;
 #landing #classic .container:before {
     background:url(/img/layout/classic.png) bottom left no-repeat;
     background-size:contain;
-    width:200px
+    width:200px;
 }
 }
 
@@ -3496,7 +3486,7 @@ margin: 0px;
     color:#333
 }
 
-#landing #goose {
+#landing #longbows {
     color:#ededed;
     position:relative;
     background:url(/img/layout/bluepurple-bg.jpg) top left no-repeat !important;
@@ -3504,150 +3494,14 @@ margin: 0px;
 }
 
 @media only screen and (min-width: 768px) {
-#landing #goose .container:before {
+#landing #longbows .container:before {
     content:'';
     position:absolute;
     right:0;
     bottom:0;
     height:591px;
-    width:450px;
-    background:url(/img/layout/goose.png) bottom right no-repeat;
-    background-size:contain;
-    -moz-transition:all .2s ease-in-out;
-    -webkit-transition:all .2s ease-in-out;
-    -o-transition:all .2s ease-in-out;
-    -ms-transition:all .2s ease-in-out;
-    transition:all .2s ease-in-out;
-    background-size:contain
-}
-}
-
-@media only screen and (max-width: 1130px) {
-#landing #goose .container:before {
-    width:400px
-}
-}
-
-@media only screen and (max-width: 980px) {
-#landing #goose .container:before {
-    width:300px
-}
-}
-
-@media only screen and (max-width: 870px) {
-#landing #goose .container:before {
-    background:url(/img/layout/goose.png) bottom right no-repeat;
-    background-size:contain;
-    width:200px
-}
-}
-
-#landing #goose .container {
-    position:relative
-}
-
-@media only screen and (min-width: 768px) {
-#landing #goose .container {
-    min-height:300px
-}
-}
-
-@media only screen and (max-width: 870px) {
-#landing #goose .container {
-    min-height:150px
-}
-
-#landing #goose .container .col-sm-5 {
-    margin-left:50%;
-    width:48%
-}
-
-#landing #goose .container .signup {
-    margin-top:0
-}
-}
-
-@media only screen and (max-width: 767px) {
-#landing #goose .container .col-sm-5 {
-    width:100%;
-    margin-right:0
-}
-
-#landing #goose .container .signup {
-    margin-top:20px
-}
-}
-
-@media only screen and (min-width: 768px) {
-#landing #goose .container {
-    padding-bottom:40px;
-    padding-top:20px
-}
-}
-
-#landing #goose h2 {
-    margin:0;
-    color:#ededed;
-    text-align: left !important;
-}
-
-#landing #goose h3 {
-    margin-top:0px;
-    line-height:30px;
-    color:#9820ca;
-    text-align: left !important;
-}
-
-#landing #goose .signup {
-    margin-top:40px
-}
-
-#landing #goose ul li {
-    list-style:none
-}
-
-#landing #goose ul li a,#landing #goose ul li a:hover {
-    color:#9820ca
-}
-
-#landing #goose ul li:before {
-    content:"\00BB";
-    margin-left:-40px;
-    font-size:100%;
-    padding-right:5px
-}
-
-#landing #goose .sub {
-    padding-left:72px;
-    margin:10px 0
-}
-
-#landing #goose .sub p {
-    margin:0;
-    color:#7e7e7e;
-    font-size:70%;
-    text-transform:uppercase;
-}
-
-#landing #goose p {
-    color:#ededed;
-}
-
-#landing #longbows {
-    background:#fff!important;
-    color:#333;
-    position:relative
-}
-
-@media only screen and (min-width: 768px) {
-#landing #longbows .container:before {
-    content:'';
-    position:absolute;
-    left:0;
-    bottom:0;
-    height:591px;
     width:550px;
-    background:url(/img/layout/longbows.png) bottom left no-repeat;
+    background:url(/img/layout/longbows.png) bottom right no-repeat;
     background-size:contain;
     -moz-transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
@@ -3660,21 +3514,21 @@ margin: 0px;
 
 @media only screen and (max-width: 1130px) {
 #landing #longbows .container:before {
-    width:450px
+    width:570px
 }
 }
 
 @media only screen and (max-width: 980px) {
 #landing #longbows .container:before {
-    width:300px
+    width:500px
 }
 }
 
 @media only screen and (max-width: 870px) {
 #landing #longbows .container:before {
-    background:url(/img/layout/longbows.png) bottom left no-repeat;
+    background:url(/img/layout/longbows.png) bottom right no-repeat;
     background-size:contain;
-    width:250px
+    width:350px
 }
 }
 
@@ -3706,7 +3560,7 @@ margin: 0px;
 @media only screen and (max-width: 767px) {
 #landing #longbows .container .col-sm-5 {
     width:100%;
-    margin-left:0
+    margin-right:0
 }
 
 #landing #longbows .container .signup {
@@ -3723,13 +3577,15 @@ margin: 0px;
 
 #landing #longbows h2 {
     margin:0;
-    color:#333
+    color:#ededed;
+    text-align: left !important;
 }
 
 #landing #longbows h3 {
-    margin-top:0;
+    margin-top:0px;
     line-height:30px;
-    color:#9820ca
+    color:#9820ca;
+    text-align: left !important;
 }
 
 #landing #longbows .signup {
@@ -3760,29 +3616,28 @@ margin: 0px;
     margin:0;
     color:#7e7e7e;
     font-size:70%;
-    text-transform:uppercase
+    text-transform:uppercase;
 }
 
 #landing #longbows p {
-    color:#333
+    color:#ededed;
 }
 
 #landing #gods {
-    color:#ededed;
+    background:#fff!important;
+    color:#333;
     position:relative;
-    background:url(/img/layout/bluepurple-bg.jpg) top left no-repeat !important;
-    background-size:cover;
 }
 
 @media only screen and (min-width: 768px) {
 #landing #gods .container:before {
     content:'';
     position:absolute;
-    right:0;
+    left:0;
     bottom:0;
     height:591px;
     width:662px;
-    background:url(/img/layout/gods.png) bottom right no-repeat;
+    background:url(/img/layout/gods.png) bottom left no-repeat;
     background-size:contain;
     -moz-transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
@@ -3795,21 +3650,21 @@ margin: 0px;
 
 @media only screen and (max-width: 1130px) {
 #landing #gods .container:before {
-    width:570px
+    width:400px
 }
 }
 
 @media only screen and (max-width: 980px) {
 #landing #gods .container:before {
-    width:500px
+    width:300px
 }
 }
 
 @media only screen and (max-width: 870px) {
 #landing #gods .container:before {
-    background:url(/img/layout/gods.png) bottom right no-repeat;
+    background:url(/img/layout/gods.png) bottom left no-repeat;
     background-size:contain;
-    width:350px
+    width:200px;
 }
 }
 
@@ -3841,7 +3696,7 @@ margin: 0px;
 @media only screen and (max-width: 767px) {
 #landing #gods .container .col-sm-5 {
     width:100%;
-    margin-right:0
+    margin-left:0
 }
 
 #landing #gods .container .signup {
@@ -3858,15 +3713,13 @@ margin: 0px;
 
 #landing #gods h2 {
     margin:0;
-    color:#ededed;
-    text-align: left !important;
+    color:#333
 }
 
 #landing #gods h3 {
-    margin-top:0px;
+    margin-top:0;
     line-height:30px;
-    color:#9820ca;
-    text-align: left !important;
+    color:#9820ca
 }
 
 #landing #gods .signup {
@@ -3897,28 +3750,29 @@ margin: 0px;
     margin:0;
     color:#7e7e7e;
     font-size:70%;
-    text-transform:uppercase;
+    text-transform:uppercase
 }
 
 #landing #gods p {
-    color:#ededed;
+    color:#333
 }
 
 #landing #firebug {
-    background:#fff!important;
-    color:#333;
-    position:relative
+    color:#ededed;
+    position:relative;
+    background:url(/img/layout/bluepurple-bg.jpg) top left no-repeat !important;
+    background-size:cover;
 }
 
 @media only screen and (min-width: 768px) {
 #landing #firebug .container:before {
     content:'';
     position:absolute;
-    left:0;
+    right:0;
     bottom:0;
     height:591px;
     width:550px;
-    background:url(/img/layout/firebug.png) bottom left no-repeat;
+    background:url(/img/layout/firebug.png) bottom right no-repeat;
     background-size:contain;
     -moz-transition:all .2s ease-in-out;
     -webkit-transition:all .2s ease-in-out;
@@ -3931,21 +3785,21 @@ margin: 0px;
 
 @media only screen and (max-width: 1130px) {
 #landing #firebug .container:before {
-    width:450px
+    width:570px
 }
 }
 
 @media only screen and (max-width: 980px) {
 #landing #firebug .container:before {
-    width:300px
+    width:500px
 }
 }
 
 @media only screen and (max-width: 870px) {
 #landing #firebug .container:before {
-    background:url(/img/layout/firebug.png) bottom left no-repeat;
+    background:url(/img/layout/firebug.png) bottom right no-repeat;
     background-size:contain;
-    width:200px
+    width:350px
 }
 }
 
@@ -3977,7 +3831,7 @@ margin: 0px;
 @media only screen and (max-width: 767px) {
 #landing #firebug .container .col-sm-5 {
     width:100%;
-    margin-left:0
+    margin-right:0
 }
 
 #landing #firebug .container .signup {
@@ -3994,13 +3848,15 @@ margin: 0px;
 
 #landing #firebug h2 {
     margin:0;
-    color:#333
+    color:#ededed;
+    text-align: left !important;
 }
 
 #landing #firebug h3 {
-    margin-top:0;
+    margin-top:0px;
     line-height:30px;
-    color:#9820ca
+    color:#9820ca;
+    text-align: left !important;
 }
 
 #landing #firebug .signup {
@@ -4031,147 +3887,10 @@ margin: 0px;
     margin:0;
     color:#7e7e7e;
     font-size:70%;
-    text-transform:uppercase
-}
-
-#landing #firebug p {
-    color:#333
-}
-
-#landing #mantank {
-    color:#ededed;
-    position:relative;
-    background:url(/img/layout/bluepurple-bg.jpg) top left no-repeat !important;
-    background-size:cover;
-}
-
-@media only screen and (min-width: 768px) {
-#landing #mantank .container:before {
-    content:'';
-    position:absolute;
-    right:0;
-    bottom:0;
-    height:591px;
-    width:662px;
-    background:url(/img/layout/mantank.png) bottom right no-repeat;
-    background-size:contain;
-    -moz-transition:all .2s ease-in-out;
-    -webkit-transition:all .2s ease-in-out;
-    -o-transition:all .2s ease-in-out;
-    -ms-transition:all .2s ease-in-out;
-    transition:all .2s ease-in-out;
-    background-size:contain
-}
-}
-
-@media only screen and (max-width: 1130px) {
-#landing #mantank .container:before {
-    width:570px
-}
-}
-
-@media only screen and (max-width: 980px) {
-#landing #mantank .container:before {
-    width:500px
-}
-}
-
-@media only screen and (max-width: 870px) {
-#landing #mantank .container:before {
-    background:url(/img/layout/mantank.png) bottom right no-repeat;
-    background-size:contain;
-    width:350px
-}
-}
-
-#landing #mantank .container {
-    position:relative
-}
-
-@media only screen and (min-width: 768px) {
-#landing #mantank .container {
-    min-height:300px
-}
-}
-
-@media only screen and (max-width: 870px) {
-#landing #mantank .container {
-    min-height:150px
-}
-
-#landing #mantank .container .col-sm-5 {
-    margin-left:50%;
-    width:48%
-}
-
-#landing #mantank .container .signup {
-    margin-top:0
-}
-}
-
-@media only screen and (max-width: 767px) {
-#landing #mantank .container .col-sm-5 {
-    width:100%;
-    margin-right:0
-}
-
-#landing #mantank .container .signup {
-    margin-top:20px
-}
-}
-
-@media only screen and (min-width: 768px) {
-#landing #mantank .container {
-    padding-bottom:40px;
-    padding-top:20px
-}
-}
-
-#landing #mantank h2 {
-    margin:0;
-    color:#ededed;
-    text-align: left !important;
-}
-
-#landing #mantank h3 {
-    margin-top:0px;
-    line-height:30px;
-    color:#9820ca;
-    text-align: left !important;
-}
-
-#landing #mantank .signup {
-    margin-top:40px
-}
-
-#landing #mantank ul li {
-    list-style:none
-}
-
-#landing #mantank ul li a,#landing #mantank ul li a:hover {
-    color:#9820ca
-}
-
-#landing #mantank ul li:before {
-    content:"\00BB";
-    margin-left:-40px;
-    font-size:100%;
-    padding-right:5px
-}
-
-#landing #mantank .sub {
-    padding-left:72px;
-    margin:10px 0
-}
-
-#landing #mantank .sub p {
-    margin:0;
-    color:#7e7e7e;
-    font-size:70%;
     text-transform:uppercase;
 }
 
-#landing #mantank p {
+#landing #firebug p {
     color:#ededed;
 }
 
@@ -4351,7 +4070,7 @@ margin: 0px;
 #landing #adventure .container:before {
     background:url(/img/layout/adventure.png) bottom right no-repeat;
     background-size:contain;
-    width:200px
+    width:200px;
 }
 }
 
@@ -4873,7 +4592,7 @@ main {
     margin:0;
     padding-left:0;
     float:none;
-    width:200px
+    width:200px;
 }
 
 #navigation-responsive li ul li.top1 {
@@ -5421,7 +5140,7 @@ main {
     margin:0;
     padding-left:0;
     float:none;
-    width:200px
+    width:200px;
 }
 
 #navigation-noresponsive li ul li.top1 {

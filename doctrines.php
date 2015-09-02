@@ -47,9 +47,6 @@
                                 <a href="#classic">Classic</a>
                             </li>
                             <li>
-                                <a href="#goose">Goose Cats</a>
-                            </li>
-                            <li>
                                 <a href="#longbows">Longbows</a>
                             </li>
                             <li>
@@ -57,9 +54,6 @@
                             </li>
                             <li>
                                 <a href="#firebug">Firebug</a>
-                            </li>
-                            <li>
-                                <a href="#mantank">Mantank</a>
                             </li>
                             <li>
                                 <a href="#covops">Covert Ops</a>
@@ -96,21 +90,10 @@
                     </div>
                 </div>
             </section>
-            <section id="goose">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2>Goose Cats</h2>
-                            <h3>Not just for F1 monkeys.</h3>
-                            <p>An upgrade from the pure tank and gank setups, &quot;Goose Cats&quot; rely on individual pilot skill and situational awareness to utilize the sensor dampeners on the vexors to full effect. Whether you are damping out snipers of delaying the application of reps, the force multiplying affect of the sensor dampeners makes Goose Cats a doctrine not to be underestimated.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section id="longbows">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 col-sm-offset-6">
+                        <div class="col-sm-6">
                             <div class="signup">
                                 <h2>Longbows</h2>
                                 <h3>Even glass cannons have more tank.</h3>
@@ -123,7 +106,7 @@
             <section id="gods">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 col-sm-offset-6">
                             <h2>Gods of War</h2>
                             <h3>Артиллерия — бог современной войны.</h3>
                             <p>This fleet doctrine takes the concept of &quot;more tank more gank&quot; to the absolute extreme. Removing the propulsion modules normally found on combat ships, and replacing them with extra shield modules, the resulting ship is completely immobile, but very difficult to kill. Equipped with artillery cannons, a coordinated volley can and will destroy anything it is aimed at. Not recommended for nullsec usage.</p>
@@ -134,23 +117,12 @@
             <section id="firebug">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6 col-sm-offset-6">
+                        <div class="col-sm-6">
                             <div class="signup">
                                 <h2>Firebugs</h2>
                                 <h3>Kurator is Primary.</h3>
                                 <p>Welcome to the world of elite PvP, featuring the Zealot Armor Heavy Assault Cruiser and Guardian Logistics. This fleet doctrines has great damage and great projection, as well as tiny signatures and high resistances. Primarily used in nullsec, or when Spectre Fleet decides that winning is the only option, this top-of-the-line fleet doctrine is worth every penny.</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="mantank">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2>Mantank</h2>
-                            <h3>HTFU</h3>
-                            <p>To be determined...</p>
                         </div>
                     </div>
                 </div>
