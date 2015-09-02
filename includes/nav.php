@@ -24,7 +24,7 @@
 					<li><a href="#">IGB</a></li>
 				</ul>
 			</li>
-			<li <?php getPage("wargaming"); ?> ><a href="#">Wargaming</a>
+			<li <?php getPage("wargaming"); ?> ><a href="/wargaming">Wargaming</a>
 				<ul class="i1">
 				<li><a href="/wargaming">Join Spectre</a></li>
 			</ul>
