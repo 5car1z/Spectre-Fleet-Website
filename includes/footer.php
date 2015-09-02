@@ -8,7 +8,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/core/BrowserCommon.php';
                 <div class="col-sm-10">
                     <div class="row">
                         <div class="container">
-							<p>
+							<p style="padding-left: 50%">
 								Follow us; <a href="http://twitter.com/Spectre_Fleet"><img src="/img/layout/TwitterLogo_blue.png" width="64px"/></a>
 								<a href="https://www.youtube.com/c/SpectrefleetGaming"><img src="/img/layout/YouTube-social-circle_red_128px.png" width="64px"/></a>
 							</p>
