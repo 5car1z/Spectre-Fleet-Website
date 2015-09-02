@@ -90,7 +90,7 @@ require_once "core/IGBFunctions.php";
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
-                                <h2 style="text-align: left !important;"><a href="doctrines" style="color: #fff !important;">What we fly</a></h2>
+                                <h2 style="text-align: left !important;"><a href="doctrines">What we fly</a></h2>
                                 <p>In Spectre Fleet, what we fly are where we fly changes every day. Ranging from frigate roams and battleship fleets, to classic cruisers and sniping destroyers, the fleet command will always let you know what ship to purchase and where to stage. While flying the doctrine ships is greatly encouraged, if you are unable to or simply do not want to, you will still be allowed to attend the fleet. Please speak to your FC for a suitable replacement or alternate ship if this is the case.<br><br>Regardless, you will never be turned away from a fleet.</p>
                             </div>
                         </div>
