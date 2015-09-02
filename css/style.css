@@ -5463,7 +5463,6 @@ main {
     max-width:1170px;
     padding:0;
     margin:0 auto;
-    background:url(/img/layout/helland.png) rgba(33,33,33,1) bottom right no-repeat !important;
 }
 
 @media only screen and (min-width: 768px) {
