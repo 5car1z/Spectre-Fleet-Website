@@ -21,17 +21,23 @@
             <li <?php getPage("feedback"); ?> ><a href="/feedback">Fleet Feedback Form</a> </li>
             <li><a href="#">Tools</a>
                 <ul class="i2">
-                    <li class="col1">
-                        <a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a>
-                    </li>
-                    <li class="col1">
-                        <a href="/slack-register">Slack Registration</a>
-                    </li>
+					<li>Slack</li>
+						<ul class="i2">
+							<li class="col1">
+								<a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a>
+							</li>
+							<li class="col1">
+								<a href="/slack-register">Slack Registration</a>
+							</li>
+						</ul>
                 </ul>
             </li>
             <li <?php getPage("stream") ?>><a href="/stream">Stream</a>
             </li>
         </ul>
     </nav>
+</section>
+
+av>
 </section>
 
