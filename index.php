@@ -87,9 +87,6 @@ require_once "core/IGBFunctions.php";
                                 <a href="#what">About Spectre Fleet</a>
                             </li>
                             <li>
-                                <a href="#players">News</a>
-                            </li>
-                            <li>
                                 <a href="#game">Media</a>
                             </li>
                             <li>
@@ -97,9 +94,6 @@ require_once "core/IGBFunctions.php";
                             </li>
                             <li>
                                 <a href="#play">The Commanders</a>
-                            </li>
-                            <li>
-                                <a href="#partners">Our Partners</a>
                             </li>
                         </ul>
                     </div>
