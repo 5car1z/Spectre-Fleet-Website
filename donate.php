@@ -54,13 +54,7 @@ require_once "core/IGBFunctions.php";
                                 <a href="/index"><img height="29" src="/img/layout/logo.png" style="margin-top: -5px;" alt="Spectre Logo" width="85"></a>
                             </li>
                             <li>
-                                <a href="#warships">Section 1</a>
-                            </li>
-                            <li>
-                                <a href="#tanks">Section 2</a>
-                            </li>
-                            <li>
-                                <a href="#everyone">Section 3</a>
+                                <a href="#warships">Donate</a>
                             </li>
                         </ul>
                     </div>
@@ -83,32 +77,9 @@ require_once "core/IGBFunctions.php";
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
+							<h2>Donate to Spectre Fleet</h2>
 								<p>
-									Section 1 text
-								</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="play">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-6">
-                                <div class="signup">
-								<p>
-									Section 2 text
-								</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="spaceships">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-								<p>
-									Section 3 text
+									The Spectre Fleet Gaming Community provides our services free of charge to all members of the community, and the Community itself is run by a large group of volunteers. Donations help us pay for hosting fees, and any extra donations will be forwarded as rewards to the commanders, developers, and streamers who help make this community possible. If you'd like to make a one-time donation, please use the paypal link below. To pledge your support on a monthly basis, please check out our Patreon page and associated funding goals. If you'd like to donate your time and become a part of the Spectre Fleet team, please contact a commander and help us make this community the best in Gaming.
 								</p>
                             </div>
                         </div>
