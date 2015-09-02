@@ -99,7 +99,7 @@ require_once "core/IGBFunctions.php";
                         <div class="row">
                             <div class="col-sm-6 col-sm-offset-6">
                                 <div class="signup">
-                                    <h2><a href="commanders">Our Fleet Commanders</a></h2>
+                                    <h2><a href="commanders">Our Commanders</a></h2>
                                     <p>The Fleet Commanders of Spectre Fleet are divided into several groupings. There are the commanders, who are in charge of the administration and management of the FC Team. There are also the Fleet Commanders, who take out fleets regularly and have proven themselves to be competent at leading NPSI fleets. Lastly, there are the Junior Fleet Commanders who are either still learning how to FC, or are simply new to the NPSI community. The Fleet Commanders of Spectre Fleet come from a variety of corporations and alliances throughout EvE, with no one group being favoured or excluded from participation. From large sov holding alliances, to smaller elite PvP groups, Spectre Fleet Commanders come from a wide variety of backgrounds, but are above all else, skilled.</p>
                                 </div>
                             </div>

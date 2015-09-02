@@ -19,9 +19,8 @@ require_once "core/IGBFunctions.php";
             </section>
             <div class="clearfix"></div>
             <section id="videos">
-                <hr>
                 <div class="container">
-                    <h2>Media</h2>
+                    <h2><a href="#videos">Media</a></h2>
                     <div class="row">
                         <article class="col-sm-6">
                             <h3>The Golden Fleet</h3>
