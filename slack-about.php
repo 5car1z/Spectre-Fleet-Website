@@ -62,7 +62,6 @@ require_once "core/IGBFunctions.php";
                         </ul>
                     </div>
                 </nav>
-				
             </section>
                 <section id="spaceships">
                     <div class="container">
@@ -90,5 +89,19 @@ Good News! Slack has gateways that will allows you to connect to the Spectre Fle
                         </div>
                     </div>
                 </section>
+				
+				 <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 style="text-align: center !important; margin-top: 40px !important;">Join Spectre Fleet Slack Today!</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p></p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
            </main>
            <?php include "includes/footer.php"; ?>
