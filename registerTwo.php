@@ -2,7 +2,7 @@
 @session_start();
 include 'conf.php';
 
-date_default_timezone_set('America/Los_Angeles'); //get fucked, euronerds // NO U
+date_default_timezone_set('America/Los_Angeles'); 
 mb_internal_encoding("UTF-8");
 
 if (!isset($_POST['email']) || !isset($_POST['fname']) || !isset($_POST['lname'])) {

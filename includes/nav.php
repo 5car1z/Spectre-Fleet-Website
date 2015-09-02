@@ -1,3 +1,11 @@
+<?php
+    function getPage($s){
+        if ($_SERVER['PHP_SELF'] == "/{$s}.php"){
+            echo 'class="selected"';
+        }
+    }
+?>
+
 <header class="main-content noprint" id="mainheader-responsive">
     <div>
         <a id="mainlogo" href="/index"><img alt="Spectre Fleet" src="/img/layout/logo.png"></a>
@@ -7,15 +15,12 @@
 <section id="navigation-responsive">
     <nav id="mainnav">
         <ul class="clearfix">
-            <li><a href="/">Frontpage</a></li>
-            <li><a href="/news">Spectre News</a></li>
-            <li class="selected"><a href="/commanders">Our Commanders</a></li>
-            <li><a href="/doctrines">Our Doctrines</a></li>
-            <li><a href="#">Fleet Tools</a>
-                <ul class="i3">
-                    <li class="col1">
-                        <a href="/feedback">Fleet Feedback Form</a>
-                    </li>
+            <li <?php getPage("news"); ?> ><a href="/news">Spectre News</a></li>
+            <li <?php getPage("commanders"); ?>  ><a href="/commanders">Our Commanders</a></li>
+            <li <?php getPage("doctrines"); ?> ><a href="/doctrines">Our Doctrines</a></li>
+            <li <?php getPage("feedback"); ?> ><a href="/feedback">Fleet Feedback Form</a> </li>
+            <li><a href="#">Tools</a>
+                <ul class="i2">
                     <li class="col1">
                         <a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a>
                     </li>
@@ -24,8 +29,7 @@
                     </li>
                 </ul>
             </li>
-            <li>
-                <a href="/stream">Stream</a>
+            <li <?php getPage("stream") ?>><a href="/stream">Stream</a>
             </li>
         </ul>
     </nav>

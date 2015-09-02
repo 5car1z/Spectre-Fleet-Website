@@ -6202,3 +6202,16 @@ h2,h3 {
     background-image:-ms-linear-gradient(top,#2e2e2e 0%,#333 55%);
     background-image:linear-gradient(top,#2e2e2e 0%,#333 55%)
 }
+
+.titletext h2
+{
+	font-size: 125px !important;
+	font-weight: bold !important;
+	letter-spacing: 5px !important;
+}
+
+.titletext h3
+{
+	font-size: 92px !important;
+	margin-left: -5px !important;
+}

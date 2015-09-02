@@ -21,8 +21,7 @@ require_once "core/IGBFunctions.php";
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-5">
+                    <div class="row titletext">
                             <h2>Spectre Fleet</h2>
                             <h3>Gaming Community</h3>
                             <?php if (checkIGB()) { ?>
@@ -44,7 +43,6 @@ require_once "core/IGBFunctions.php";
                                     </div>
                                 <?php } ?>
                             <?php } ?>
-                        </div>
                     </div>
                 </div>
             </section>
