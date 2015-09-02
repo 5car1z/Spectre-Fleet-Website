@@ -3013,7 +3013,12 @@ margin: 0px;
 }
 
 #landing #fc h2 {
-    text-align:left;
+    text-align: left;
+}
+
+#landing #fc h2.title {
+    text-align: center;
+    font-size: 8em;
 }
 
 #landing #fc h3 {
