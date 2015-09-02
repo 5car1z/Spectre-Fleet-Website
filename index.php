@@ -52,7 +52,7 @@ require_once "core/IGBFunctions.php";
                     <div class="row">
                         <div class="col-sm-5">
                             <h2>Spectre Fleet</h2>
-                            <h3>The content machine</h3>
+                            <h3>Gaming Community</h3>
                             <?php if (checkIGB()) { ?>
                                 <?php if (checkTrust() == 0) { ?>
                                     <div align="center">
