@@ -26,7 +26,7 @@ require_once "core/IGBFunctions.php";
 						<a href="http://twitter.com/Spectre_Fleet" target="_blank"><img src="/img/layout/TwitterLogo_blue.png" title="Twitter" width="64px"/></a>
 						<a href="https://www.youtube.com/c/SpectrefleetGaming" target="_blank"><img src="/img/layout/YouTube-social-circle_red_128px.png" title="Youtube" width="48px"/></a>
 						<a href="https://www.patreon.com/Spectre_Fleet?ty=h" target="_blank"><img src="/img/layout/patreon_logo.png" title="Patreon" width="48px" style="margin-left: 10px;"/></a>
-						<a href="#" onclick="window.open('https://www.youtube.com/live_chat?v=5qCI-JGMcPQ&amp;dark_theme=1&amp;from_gaming=1&amp;client_version=1.0', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"><img src="/img/layout/open_stream_chat.png"></a>	
+						<a href="#" style="padding-left: 10px;" onclick="window.open('https://www.youtube.com/live_chat?v=5qCI-JGMcPQ&amp;dark_theme=1&amp;from_gaming=1&amp;client_version=1.0', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"><img src="/img/layout/open_stream_chat.png"></a>	
                     </div>
 					
                 </div>
