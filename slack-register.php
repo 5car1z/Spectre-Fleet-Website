@@ -8,5 +8,5 @@
     <body id="landing">
     <?php include "includes/nav.php"; ?>
        <main class="main-content" id="mainstuff" role="main">
-            <iframe src="register.php" width="100%" height="883"></iframe>
+            <iframe src="register.php" width="100%" height="883" frameBorder="0"></iframe>
         <?php include "includes/footer.php"; ?>
