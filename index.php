@@ -59,9 +59,6 @@ require_once "core/IGBFunctions.php";
                                 <a href="#what">About Spectre Fleet</a>
                             </li>
                             <li>
-                                <a href="#game">Media</a>
-                            </li>
-                            <li>
                                 <a href="#spaceships">What we fly</a>
                             </li>
                             <li>
@@ -89,57 +86,6 @@ require_once "core/IGBFunctions.php";
                     </div>
                 </div>
             </section>
-           <section id="game">
-                <hr>
-                <div class="container">
-                    <h2>Media</h2>
-                        <div class="row">
-                            <article class="col-sm-6">
-                                <?php if (checkIGB() == 0) { ?>
-                                    <div class="video-container">
-                                        <video controls width="100%">
-                                            <source src="/assets/storminkamela.mp4" type="video/mp4">
-                                        </video>
-                                    </div>
-                                <?php } ?>
-                                <p><a href="https://www.themittani.com/news/storm-kamela-npsi-vs-pandemic-legion">
-                                <b>The Storm of Kamela</b></a> On October 2nd, Spectre Fleet formed its largest Battleship fleet, supported by Guardians and Triage Carriers. The fighting was fierce and immediate, as two back to back engagements saw over 60B ISK destoryed in a single system.<br><br><a href="https://www.themittani.com/news/storm-kamela-npsi-vs-pandemic-legion">Read more about this fight on TheMittani.com</a></p>
-                            </article>
-                            <article class="col-sm-6">
-                                <?php if (checkIGB() == 0) { ?>
-                                    <div class="video-container">
-                                        <video controls width="100%">
-                                            <source src="/assets/aldaliproject.mp4" type="video/mp4">
-                                        </video>
-                                    </div>
-                                <?php } ?>
-                                <p><a href="https://www.themittani.com/news/alod-aldali-project-0"><b>The Aldali Project</b></a> The first Supercarrier kill claimed by an NPSI organization too place on October 8th, when Ninja Utioh assembled a small group of people form Spectre Fleet to hunt and catch a Hel.<br><br><br><a href="https://www.themittani.com/news/alod-aldali-project-0">Read more about their hunt on TheMittani.com</a> </p>
-                            </article>
-                        </div>
-                        <div class="row">
-                            <article class="col-sm-6">
-                                <?php if (checkIGB() == 0) { ?>
-                                    <div class="video-container">
-                                        <video controls width="100%">
-                                            <source src="/assets/thousandcuts.mp4" type="video/mp4">
-                                        </video>
-                                    </div>
-                                <?php } ?>
-                                <p><a href="https://www.themittani.com/news/alod-thousand-cuts"><b>Death by a Thousand Cuts</b></a> On July 27th, Spectre Fleet departed highsec with a fleet of two hundred interceptors intent on completing a full loop of nullsec, requiring over four hundred gate jumps in total. Not thirty jumps into their planned route, they accidentally caught and killed seven carriers.<br><br><a  href="https://www.themittani.com/news/alod-thousand-cuts">Read about the fight on TheMittani.com</a></p>
-                            </article>
-                            <article class="col-sm-6">
-                                <?php if (checkIGB() == 0) { ?>
-                                    <div class="video-container">
-                                        <video controls width="100%">
-                                            <source src="/assets/contentgenerator.mp4" type="video/mp4">
-                                        </video>
-                                    </div>
-                                <?php } ?>
-                                <p><a href="https://www.youtube.com/watch?v=j9pUanNf_rk"><b>Operation Content Generator</b></a> On June 29th, Spectre Fleet teamed up with the other NPSI communities and conducted war games against Provibloc, simulating sov warfare. The fleet of 250 shield battlecruisers began placing SBUs as two support fleets provided overwatch. The resulting 1200 man battle remains the largest in Spectre Fleet's history.</p>
-                            </article>
-                        </div>
-                    </div>
-                </section>
                 <section id="spaceships">
                     <div class="container">
                         <div class="row">
