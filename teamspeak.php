@@ -54,13 +54,8 @@ require_once "core/IGBFunctions.php";
                                 <a href="/index"><img height="29" src="/img/layout/logo.png" style="margin-top: -5px;" alt="Spectre Logo" width="85"></a>
                             </li>
                             <li>
-                                <a href="#warships">Section 1</a>
+                                <a href="#teamspeak">Teamspeak</a>
                             </li>
-                            <li>
-                                <a href="#tanks">Section 2</a>
-                            </li>
-                            <li>
-                                <a href="#everyone">Section 3</a>
                             </li>
                         </ul>
                     </div>
@@ -68,7 +63,9 @@ require_once "core/IGBFunctions.php";
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h2 style="text-align: center !important; margin-top: 40px !important;">Looking to participate in Spectre Fleet's Wargaming Branch? Look no further!</h2>
+                            <h2 style="text-align: center !important; margin-top: 40px !important;"><a href="http://www.teamspeak.com/downloads">Download Teamspeak</a>
+							<br />
+							<a href="http://invite.teamspeak.com/voice.spectrefleet.com/?channel=Lobby">Open Spectre Fleet Teamspeak</a></h2>
                         </div>
                     </div>
                     <div class="row">
@@ -83,32 +80,9 @@ require_once "core/IGBFunctions.php";
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
+							<h2><a href="#">Teamspeak 3</a></h2>
 								<p>
-									Section 1 text
-								</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="play">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-6">
-                                <div class="signup">
-								<p>
-									Section 2 text
-								</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="spaceships">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-								<p>
-									Section 3 text
+Teamspeak is a voice communication tool that allows players to communicate outside of the game client. The teamspeak is open for everyone to use, and is not password protected. If you'd like a custom channel added to the Spectre Fleet Teamspeak, contact a commander and we'll make you a channel to use as you please.
 								</p>
                             </div>
                         </div>
