@@ -224,33 +224,5 @@ require_once "core/IGBFunctions.php";
                         </div>
                     </div>
                 </section>
-                <section id="partners">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <h2 style="text-align: left !important;">Our Partners</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <p><strong>RvB Ganked</strong>:<br> Large themed fleets depart every Saturday in the EU TZ, commanded by Guest FCs from different corporations and alliance. Hosted by the RvB Alliances and Mangala Solaris.</p>
-                            </div>
-                            <div class="col-sm-4">
-                                <p><strong>Redemption Road</strong>:<br> A very newbro friendly NPSI community, Redemption Road runs often runs a fleet on Sundays as well as fleets in the AU TZ. Hosted by the Affirmative Alliance and Greygal.</p>
-                            </div>
-                            <div class="col-sm-4">
-                                <p><strong>Stille Gewalt</strong>:<br> The largest and most popular German NPSI community, runs primarily armor cruiser doctrines, and prefers to operate in lowsec. Hosted by the Stille Gewalt corporation and Citriconi.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p><strong>Bombers Bar</strong>:<br> A covert ops focused NPSI community, Bombers Bar pioneered the current NPSI model and is great place to learn how to Bomb. Hosted by the Vengance Inc and Tempelman N.</p>
-                            </div>
-                            <div class="col-sm-6">
-                                <p><strong>Frigs for Life</strong>:<br> The newest NPSI community, Frigs for Life is a dedicated frigate roaming community that operates in lowsec. Hosted by the Suddenly Frigates corporation and Wolfvaine.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </main>
+           </main>
             <?php include "includes/footer.php"; ?>
