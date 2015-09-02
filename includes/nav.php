@@ -35,7 +35,7 @@
 					<li><a href="/feedback">Feedback Form</a> </li>
 					<li class="col1"><a href="/teamspeak">Teamspeak 3</a> </li>
 					<li class="col1"><hr><li>
-					<li class="col1">About Slack</li>
+					<li class="col1"><a href="/slack-about">About Slack<a/></li>
 					<li class="col1"><a href="/slack-register">Slack Registration</a></li>
 					<li class="col1"><a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Open Slack</a></li>
 					</li>
