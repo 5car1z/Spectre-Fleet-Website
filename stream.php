@@ -16,8 +16,10 @@ require_once "core/IGBFunctions.php";
                 <div class="container">
                     <h2 class="title">Spectre Fleet TV</h2>
                     <iframe width="1024" height="630" src="https://www.youtube.com/embed/5qCI-JGMcPQ" frameborder="0" allowfullscreen></iframe>
-					<div><a href="http://twitter.com/Spectre_Fleet"><img src="/img/layout/TwitterLogo_blue.png" width="64px"/></a>
-								<a href="https://www.youtube.com/c/SpectrefleetGaming"><img src="/img/layout/YouTube-social-circle_red_128px.png" width="48px"/></a></div>
+		    <div>
+                        <a href="http://twitter.com/Spectre_Fleet"><img src="/img/layout/TwitterLogo_blue.png" width="64px"/></a>
+		        <a href="https://www.youtube.com/c/SpectrefleetGaming"><img src="/img/layout/YouTube-social-circle_red_128px.png" width="48px"/></a>
+                    </div>
                 </div>
             </section>
             <div class="clearfix"></div>
