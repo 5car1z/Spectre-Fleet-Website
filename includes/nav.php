@@ -15,7 +15,6 @@
 <section id="navigation-responsive">
     <nav id="mainnav">
         <ul class="clearfix">
-            <li <?php getPage("index"); ?> ><a href="/">Frontpage</a></li>
             <li <?php getPage("news"); ?> ><a href="/news">Spectre News</a></li>
             <li <?php getPage("commanders"); ?>  ><a href="/commanders">Our Commanders</a></li>
             <li <?php getPage("doctrines"); ?> ><a href="/doctrines">Our Doctrines</a></li>
