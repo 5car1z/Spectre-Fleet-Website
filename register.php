@@ -56,35 +56,6 @@ $_SESSION['captcha'] = $cap;
                 font-family: 'Open Sans', Arial, sans-serif;
             }
 
-            a {
-                margin-top: 25px;
-                padding: 15px;
-                border-radius: 5px;
-                outline: none;
-                border: none;
-                background-image:
-                -webkit-gradient(linear, 0 0, 0 100%, from(#28D2DE), to(#1A878F));
-                background-image:
-                -webkit-linear-gradient(#28D2DE 0%, #1A878F 100%);
-                background-image:
-                -moz-linear-gradient(#28D2DE 0%, #1A878F 100%);
-                background-image:
-                -o-linear-gradient(#28D2DE 0%, #1A878F 100%);
-                background-image: linear-gradient(#28D2DE 0%, #1A878F 100%);
-                font-size: 14px;
-                font-family: 'Oswald', arial, sans-serif;
-                color: #FFF;
-                text-transform: uppercase;
-                text-shadow: #000 0px 1px 5px;
-                border: 1px solid #000;
-                opacity: 0.7;
-                -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
-                -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
-                box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
-                border-top: 1px solid rgba(255, 255, 255, 0.8) !important;
-                -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.2)));
-            }
-
             a:visited {
                 color:#9820ca
             }
