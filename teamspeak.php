@@ -63,9 +63,9 @@ require_once "core/IGBFunctions.php";
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h2 style="text-align: center !important; margin-top: 40px !important;"><a href="http://www.teamspeak.com/downloads">Download Teamspeak</a>
+                            <h2 style="text-align: center !important; margin-top: 40px !important;"><a href="http://www.teamspeak.com/downloads"><img src="/img/layout/download_teamspeak.png"></a>
 							<br />
-							<a href="http://invite.teamspeak.com/voice.spectrefleet.com/?channel=Lobby">Open Spectre Fleet Teamspeak</a></h2>
+							<a href="http://invite.teamspeak.com/voice.spectrefleet.com/?channel=Lobby"><img src="/img/layout/join_spectre_teamspeak.png"></a></h2>
                         </div>
                     </div>
                     <div class="row">
