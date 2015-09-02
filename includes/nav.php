@@ -16,20 +16,20 @@
     <nav id="mainnav">
         <ul class="clearfix">
             <li <?php getPage("news"); ?> ><a href="/news">Spectre News</a></li>
-			<li><a href="#">Eve Online</a>
-				<ul class="i2">
+			<li <?php getPage("commanders"); getPage("doctrines"); ?> ><a href="#">Eve Online</a>
+				<ul class="i3">
 					<li><a href="#">Join Spectre</a></li>
-					<li <?php getPage("commanders"); ?>  ><a href="/commanders">Commanders</a></li>
-					<li <?php getPage("doctrines"); ?> ><a href="/doctrines">Doctrines</a></li>
+					<li><a href="/commanders">Commanders</a></li>
+					<li><a href="/doctrines">Doctrines</a></li>
 				</ul>
 			</li>
 			<li><a href="#">War Gaming</a>
 			</li>
 			<li><a href="#">Other Games</a>
 			</li>
-            <li><a href="#">Tools</a>
-                <ul class="i2">
-					<li <?php getPage("feedback"); ?> ><a href="/feedback">Feedback Form</a> </li>
+            <li <?php getPage("feedback");getPage("slack-register"); ?> ><a href="#">Tools</a>
+                <ul class="i3">
+					<li><a href="/feedback">Feedback Form</a> </li>
 					<li class="col1">
 						<a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a>
 					</li>
