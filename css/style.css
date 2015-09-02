@@ -587,9 +587,12 @@ td {
 }
 
 .col-sm-6 {
-    width:33%
+    width:50%
 }
 
+.col-sm-6-command {
+    width:33.33%
+}
 .col-sm-5 {
     width:41.666666666667%
 }

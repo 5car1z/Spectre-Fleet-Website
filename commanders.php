@@ -51,13 +51,13 @@ require_once "core/IGBFunctions.php";
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-6-command">
                             <?php include "includes/profiles/jayne.php"; ?>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6-command">
                             <?php include "includes/profiles/nonnak.php"; ?>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6-command">
                             <?php include "includes/profiles/douglas.php"; ?>
                         </div>
                     </div>
