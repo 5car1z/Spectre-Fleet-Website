@@ -8,7 +8,7 @@
     <nav id="mainnav">
         <ul class="clearfix">
             <li><a href="/">Frontpage</a></li>
-            <li><a href="/news/">Spectre News</a></li>
+            <li><a href="/news">Spectre News</a></li>
             <li class="selected"><a href="/commanders">Our Commanders</a></li>
             <li><a href="/doctrines">Our Doctrines</a></li>
             <li><a href="#">Fleet Tools</a>
