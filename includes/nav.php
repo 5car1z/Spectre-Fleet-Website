@@ -16,20 +16,21 @@
     <nav id="mainnav">
         <ul class="clearfix">
             <li <?php getPage("news"); ?> ><a href="/news">Spectre News</a></li>
-            <li <?php getPage("commanders"); ?>  ><a href="/commanders">Commanders</a></li>
-            <li <?php getPage("doctrines"); ?> ><a href="/doctrines">Doctrines</a></li>
-            <li <?php getPage("feedback"); ?> ><a href="/feedback">Fleet Feedback Form</a> </li>
+			<li><a href="#">Eve Online</a>
+				<ul class="i2">
+					<li <?php getPage("commanders"); ?>  ><a href="/commanders">Commanders</a></li>
+					<li <?php getPage("doctrines"); ?> ><a href="/doctrines">Doctrines</a></li>
+				</ul>
+			</li>
             <li><a href="#">Tools</a>
                 <ul class="i2">
-					<li>Slack</li>
-						<ul class="i2">
-							<li class="col1">
-								<a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a>
-							</li>
-							<li class="col1">
-								<a href="/slack-register">Slack Registration</a>
-							</li>
-						</ul>
+					<li <?php getPage("feedback"); ?> ><a href="/feedback">Feedback Form</a> </li>
+					<li class="col1">
+						<a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a>
+					</li>
+					<li class="col1">
+						<a href="/slack-register">Slack Registration</a>
+					</li>
                 </ul>
             </li>
             <li <?php getPage("stream") ?>><a href="/stream">Stream</a>
