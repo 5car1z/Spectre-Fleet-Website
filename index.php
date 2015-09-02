@@ -20,7 +20,7 @@ require_once "core/IGBFunctions.php";
             <nav id="mainnav">
                 <ul class="clearfix">
                     <li class="selected"><a href="/index">Frontpage</a></li>
-                    <li><a href="/news/">Spectre News</a></li>
+                    <li><a href="/news">Spectre News</a></li>
                     <li><a href="/commanders">Our Commanders</a></li>
                     <li><a href="/doctrines">Our Doctrines</a></li>
                     <li><a href="#">Fleet Tools</a>
@@ -52,7 +52,7 @@ require_once "core/IGBFunctions.php";
                     <div class="row">
                         <div class="col-sm-5">
                             <h2>Spectre Fleet</h2>
-                            <h3>The content machine</h3>
+                            <h3>Gaming Community</h3>
                             <?php if (checkIGB()) { ?>
                                 <?php if (checkTrust() == 0) { ?>
                                     <div align="center">
@@ -87,9 +87,6 @@ require_once "core/IGBFunctions.php";
                                 <a href="#what">About Spectre Fleet</a>
                             </li>
                             <li>
-                                <a href="#players">News</a>
-                            </li>
-                            <li>
                                 <a href="#game">Media</a>
                             </li>
                             <li>
@@ -97,9 +94,6 @@ require_once "core/IGBFunctions.php";
                             </li>
                             <li>
                                 <a href="#play">The Commanders</a>
-                            </li>
-                            <li>
-                                <a href="#partners">Our Partners</a>
                             </li>
                         </ul>
                     </div>
@@ -123,26 +117,7 @@ require_once "core/IGBFunctions.php";
                     </div>
                 </div>
             </section>
-            <section id="players">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2 style="text-align: left !important;">Spectre News</h2>
-                            <div style="border: 15px solid rgba(255,255,255,0.8); -moz-box-shadow:0 0 10px rgba(0,0,0,0.75); -webkit-box-shadow:0 0 10px rgba(0,0,0,0.75); box-shadow:0 0 10px rgba(0,0,0,0.75); margin-bottom:25px;background:#fff;">
-                                <script src="js/rssmikle.js" type="text/javascript"></script>
-                                <script src="js/spectrenews.rssmikle.js" type="text/javascript"></script>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <h2 style="text-align: left !important;"><a href="https://community.eveonline.com/news/dev-blogs/" target="_blank">Devblogs</a></h2>
-                            <div style="border: 15px solid rgba(255,255,255,0.8); -moz-box-shadow:0 0 10px rgba(0,0,0,0.75); -webkit-box-shadow:0 0 10px rgba(0,0,0,0.75); box-shadow:0 0 10px rgba(0,0,0,0.75); margin-bottom:25px;background:#fff;">
-                                <script src="js/devblogs.rssmikle.js" type="text/javascript"></script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="game">
+           <section id="game">
                 <hr>
                 <div class="container">
                     <h2>Media</h2>
