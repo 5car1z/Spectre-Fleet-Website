@@ -24,6 +24,9 @@
 				</ul>
 			</li>
 			<li <?php getPage("wargaming"); ?> ><a href="#">Wargaming</a>
+			    <ul class="i3">
+					<li><a href="/wargaming">Join Spectre</a></li>
+				</ul>
 			</li>
 			<li <?php getPage("othergames"); ?> ><a href="#">Other Games</a>
 			</li>
