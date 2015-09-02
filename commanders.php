@@ -40,30 +40,6 @@ require_once "core/IGBFunctions.php";
             </nav>
         </section>
         <main class="main-content" id="mainstuff" role="main">
-            <section id="what">
-                <nav id="section-menu">
-                    <div class="container">
-                        <ul class="nav">
-                            <li>
-                                <a href="#command">General Commanders</a>
-                            </li>
-                            <li>
-                                <a href="#fc">Fleet Commanders</a>
-                            </li>
-                            <li>
-                                <a href="#jrfc">Junior FCs</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <h2 style="text-align: right !important;">Our Fleet Commanders</h2>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section id="fc">
                 <div class="container">
                     <div class="row">
