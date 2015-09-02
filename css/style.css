@@ -591,7 +591,11 @@ td {
 }
 
 .col-sm-6-command {
-    width:33.33%
+    width:33.33%;
+	position:relative;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px
 }
 .col-sm-5 {
     width:41.666666666667%
