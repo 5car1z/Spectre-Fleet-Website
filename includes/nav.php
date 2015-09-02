@@ -38,6 +38,3 @@
     </nav>
 </section>
 
-av>
-</section>
-

@@ -1896,9 +1896,7 @@ body#landing {
 
 @media only screen and (min-width: 1040px) {
 #landing #intro {
-    height:640px;
     background:url(/img/layout/cover.jpg) repeat-x repeat-y;
-    padding-top:130px
 }
 
 #landing #intro .flip {
@@ -1910,37 +1908,7 @@ body#landing {
 
 @media only screen and (max-width: 1830px) {
 #landing #intro {
-    height:590px;
     background:#000 url(/img/layout/cover.jpg) repeat-x repeat-y top left;
-    padding-top:75px
-}
-}
-
-@media only screen and (max-width: 1670px) {
-#landing #intro {
-    height:540px;
-    padding-top:65px
-}
-}
-
-@media only screen and (max-width: 1540px) {
-#landing #intro {
-    height:510px;
-    padding-top:55px
-}
-}
-
-@media only screen and (max-width: 1455px) {
-#landing #intro {
-    height:340px;
-    padding-top:45px
-}
-}
-
-@media only screen and (max-width: 1350px) {
-#landing #intro {
-    height:440px;
-    padding-top:35px
 }
 }
 
