@@ -64,12 +64,12 @@ require_once "core/IGBFunctions.php";
                         <div class="col-sm-12">
                             <h2 style="text-align: center !important; margin-top: 40px !important;">Donate today to support Spectre Fleet!</h2>
 							<br>
-							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: inline; padding-left: 43%;">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="6A4HSN7XDL3YS">
-<input type="image" src="http://dev.spectrefleet.com/img/layout/paypal-128.png" style="border-width: 0px !important" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="image" src="http://dev.spectrefleet.com/img/layout/paypal-128.png" style="border-width: 0px !important; width: 92px;" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form> <a href="https://www.patreon.com/Spectre_Fleet?ty=h"><img src="http://dev.spectrefleet.com/img/layout/patreon_logo.png" width="64px"></a>
+</form> <a href="https://www.patreon.com/Spectre_Fleet?ty=h"><img src="http://dev.spectrefleet.com/img/layout/patreon_logo.png" width="64px" style="margin-top: -80px"></a>
                         </div>
                     </div>
                     <div class="row">
