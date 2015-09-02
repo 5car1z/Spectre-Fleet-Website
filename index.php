@@ -123,26 +123,7 @@ require_once "core/IGBFunctions.php";
                     </div>
                 </div>
             </section>
-            <section id="players">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2 style="text-align: left !important;">Spectre News</h2>
-                            <div style="border: 15px solid rgba(255,255,255,0.8); -moz-box-shadow:0 0 10px rgba(0,0,0,0.75); -webkit-box-shadow:0 0 10px rgba(0,0,0,0.75); box-shadow:0 0 10px rgba(0,0,0,0.75); margin-bottom:25px;background:#fff;">
-                                <script src="js/rssmikle.js" type="text/javascript"></script>
-                                <script src="js/spectrenews.rssmikle.js" type="text/javascript"></script>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <h2 style="text-align: left !important;"><a href="https://community.eveonline.com/news/dev-blogs/" target="_blank">Devblogs</a></h2>
-                            <div style="border: 15px solid rgba(255,255,255,0.8); -moz-box-shadow:0 0 10px rgba(0,0,0,0.75); -webkit-box-shadow:0 0 10px rgba(0,0,0,0.75); box-shadow:0 0 10px rgba(0,0,0,0.75); margin-bottom:25px;background:#fff;">
-                                <script src="js/devblogs.rssmikle.js" type="text/javascript"></script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="game">
+           <section id="game">
                 <hr>
                 <div class="container">
                     <h2>Media</h2>
