@@ -86,7 +86,7 @@ require_once "core/IGBFunctions.php";
                             <div class="col-sm-6">
 							<h2><a href="">Where do donations go... ?</a></h2>
 								<p>
-									The Spectre Fleet Gaming Community provides our services free of charge to all members of the community, and the Community itself is run by a large group of volunteers. Donations help us pay for hosting fees, and any extra donations will be forwarded as rewards to the commanders, developers, and streamers who help make this community possible. If you'd like to make a one-time donation, please use the paypal link below. To pledge your support on a monthly basis, please check out our Patreon page and associated funding goals. If you'd like to donate your time and become a part of the Spectre Fleet team, please contact a commander and help us make this community the best in Gaming.
+									The Spectre Fleet Gaming Community provides our services free of charge for all members of the community, and the Community itself is run by a large group of volunteers. Donations help us pay for hosting fees, and any extra donations will be forwarded as rewards to the commanders, developers, and streamers who help make this community possible. If you'd like to make a one-time donation, please use the PayPal link below. To pledge your support on a monthly basis, please check out our Patreon page and associated funding goals. If you'd like to donate your time and become a part of the Spectre Fleet team, please contact a commander and help us make this community the best in Gaming.
 								</p>
 								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: inline; padding-left: 23%;">
 <input type="hidden" name="cmd" value="_s-xclick">
