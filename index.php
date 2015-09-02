@@ -20,7 +20,7 @@ require_once "core/IGBFunctions.php";
             <nav id="mainnav">
                 <ul class="clearfix">
                     <li class="selected"><a href="/index">Frontpage</a></li>
-                    <li><a href="/news/">Spectre News</a></li>
+                    <li><a href="/news">Spectre News</a></li>
                     <li><a href="/commanders">Our Commanders</a></li>
                     <li><a href="/doctrines">Our Doctrines</a></li>
                     <li><a href="#">Fleet Tools</a>
