@@ -33,7 +33,7 @@
             <li <?php getPage("feedback");getPage("slack-register"); ?> ><a href="#">Tools</a>
                 <ul class="i3">
 					<li><a href="/feedback">Feedback Form</a> </li>
-					<li class="col1"><a href="/teamspeak" /> </li>
+					<li class="col1"><a href="/teamspeak">Teamspeak 3</a> </li>
 					<li class="col1"><a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a></li>
 					<li class="col1"><a href="/slack-register">Slack Registration</a></li>
                 </ul>
