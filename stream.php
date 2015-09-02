@@ -16,13 +16,17 @@ require_once "core/IGBFunctions.php";
                 <div class="container">
                     <h2 class="title">Spectre Fleet TV</h2>
                     <iframe width="1024" height="630" src="https://www.youtube.com/embed/5qCI-JGMcPQ" frameborder="0" allowfullscreen></iframe>
-		    <div>
-				<div style="text-align: center; font-size: 30px; padding-top: 15px;">
-					<a href="#" onclick="window.open('https://www.youtube.com/live_chat?v=5qCI-JGMcPQ&amp;dark_theme=1&amp;from_gaming=1&amp;client_version=1.0', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"> Stream Chat </a>
-				</div>
-                        <a href="http://twitter.com/Spectre_Fleet" target="_blank"><img src="/img/layout/TwitterLogo_blue.png" title="Twitter" width="64px"/></a>
-		        <a href="https://www.youtube.com/c/SpectrefleetGaming" target="_blank"><img src="/img/layout/YouTube-social-circle_red_128px.png" title="Youtube" width="48px"/></a>
-				<a href="https://www.patreon.com/Spectre_Fleet?ty=h" target="_blank"><img src="/img/layout/patreon_logo.png" title="Patreon" width="48px" style="margin-left: 10px;"/></a>
+					<div>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="H22NE6BUUMJ62">
+							<input type="image" src="http://spectrefleet.com/img/layout/donate_to_stream.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+						<a href="http://twitter.com/Spectre_Fleet" target="_blank"><img src="/img/layout/TwitterLogo_blue.png" title="Twitter" width="64px"/></a>
+						<a href="https://www.youtube.com/c/SpectrefleetGaming" target="_blank"><img src="/img/layout/YouTube-social-circle_red_128px.png" title="Youtube" width="48px"/></a>
+						<a href="https://www.patreon.com/Spectre_Fleet?ty=h" target="_blank"><img src="/img/layout/patreon_logo.png" title="Patreon" width="48px" style="margin-left: 10px;"/></a>
+						<a href="#" onclick="window.open('https://www.youtube.com/live_chat?v=5qCI-JGMcPQ&amp;dark_theme=1&amp;from_gaming=1&amp;client_version=1.0', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"><img src="/img/layout/open_stream_chat.png"></a>	
                     </div>
 					
                 </div>
