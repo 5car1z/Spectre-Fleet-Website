@@ -23,7 +23,7 @@
 					<li><a href="/doctrines">Doctrines</a></li>
 				</ul>
 			</li>
-			<li><a href="#">War Gaming</a>
+			<li><a href="#">Wargaming</a>
 			</li>
 			<li><a href="#">Other Games</a>
 			</li>
