@@ -21,7 +21,7 @@
 					<li><a href="#">Join Spectre</a></li>
 					<li><a href="/commanders">Commanders</a></li>
 					<li><a href="/doctrines">Doctrines</a></li>
-					<li><a href="/igb">IGB</a></li>
+					<li><a href="#">IGB</a></li>
 				</ul>
 			</li>
 			<li <?php getPage("wargaming"); ?> ><a href="#">Wargaming</a>
