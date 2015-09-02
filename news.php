@@ -6,7 +6,7 @@ require_once "core/IGBFunctions.php";
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Spectre Fleet News- The largest and best NPSI Community in EVE Online</title>
+        <title>News | Spectre Fleet</title>
         <?php include "includes/static-header.php"; ?>
     </head>
     <body id="landing" class="animate">

@@ -43,7 +43,7 @@ $_SESSION['captcha'] = $cap;
 <html>
     <head>
         <meta charset='utf-8'>
-        <title>Spectre Fleet - The largest and best NPSI Community in EVE Online</title>
+        <title>Register | Spectre Fleet</title>
         <meta content="Spectre Fleet is the biggest NPSI community in the MMO EVE Online. You can join us by joining our in game channel Spectre Fleet and whenever there's a fleet, X up!" name="description">
         <link href="/lib/Font-Awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <!-- FIXME: load these in locally -->

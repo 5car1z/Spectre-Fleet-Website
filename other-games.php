@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Spectre Fleet Live Stream- The largest and best NPSI Community in EVE Online</title>
+        <title>Other Games | Spectre Fleet</title>
         <?php include "includes/static-header.php"; ?>
     </head>
     <body id="landing" class="animate">

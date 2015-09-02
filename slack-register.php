@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Spectre Fleet - Register for our Slack page now!</title>
+        <title>Slack Registration | Spectre Fleet</title>
         <?php include "includes/static-header.php"; ?>
     </head>
     <body id="landing">

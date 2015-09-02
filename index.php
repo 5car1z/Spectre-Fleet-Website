@@ -6,7 +6,7 @@ require_once "core/IGBFunctions.php";
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Spectre Fleet - The largest and best NPSI Community in EVE Online</title>
+        <title>Spectre Fleet Gaming Community</title>
         <?php include "includes/static-header.php"; ?>
     </head>
     <body id="landing">

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Spectre Fleet - Enjoy our Slack!</title>
+        <title>Slack | Spectre Fleet</title>
         <?php include "includes/static-header.php"; ?>
     </head>
     <body id="landing">
