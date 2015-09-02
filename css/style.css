@@ -1535,7 +1535,7 @@ body#landing {
 }
 }
 
-#landing section#awards,#landing section#game, #landing section#fc {
+#landing section#awards,#landing section#videos, #landing section#fc {
     padding-top:40px
 }
 
@@ -1725,7 +1725,7 @@ body#landing {
     height:100%
 }
 @media only screen and (min-width: 768px) {
-#landing #game:after,#landing #players:after,#landing #awards:after,#landing#command:after,#landing#fc:after {
+#landing #videos:after,#landing #players:after,#landing #awards:after,#landing#command:after,#landing#fc:after {
     content:'';
     position:absolute;
     bottom:-21px;
@@ -2131,7 +2131,7 @@ body#landing {
     display:inline-block;
 }
 
-#landing #game {
+#landing #videos {
     background:#ededed;
     background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0.5,#efefef),color-stop(0.9,#c5c5c5));
     background-image:-moz-linear-gradient(top,#efefef 50%,#c5c5c5 90%);
@@ -2143,55 +2143,58 @@ body#landing {
     position:relative;
 }
 
-#landing #game .container {
+#landing #videos .container {
     padding-bottom:10px;
 }
 
-#landing #game h2 {
+#landing #videos h2 {
     color:#333;
 }
 
-#landing #game h4 {
+#landing #videos h3 {
+    margin-bottom: 5px;
+}
+
+#landing #videos h4 {
     margin:10px 0;
     font-size:1.2em;
 }
 
-#landing #game img {
+#landing #videos img {
     width:100%;
 }
 
-#landing #game p {
+#landing #videos p {
     margin:20px 0 30px
 }
 
-#landing #game .lower {
+#landing #videos .lower {
     margin-top:40px;
     margin-bottom:40px
 }
 
-#landing #game .lower article div {
+#landing #videos .lower article div {
     background:#f9f9f9;
     padding:20px;
     margin-bottom:10px
 }
 
 @media only screen and (min-width: 768px) {
-#landing #game .lower article div {
+#landing #videos .lower article div {
     margin-bottom:0;
 }
 }
 
-#landing #game .lower h4 {
+#landing #videos .lower h4 {
     margin:0;
     border-bottom:3px solid #838383;
     padding-bottom:8px;
 }
 
 #landing #spaceships {
-    color:#ededed;
+    background-color:#ededed !important;
+    color:#333;
     position:relative;
-    background:url(/img/layout/bluepurple-bg.jpg) top left no-repeat !important;
-    background-size:cover;
 }
 
 @media only screen and (min-width: 768px) {
@@ -2321,7 +2324,7 @@ body#landing {
 }
 
 #landing #spaceships p {
-    color:#ededed;
+    color:#333;
 }
 
 #landing #partners {
@@ -2638,9 +2641,10 @@ margin: 0px;
 }
 
 #landing #play {
-    background-color:#ededed !important;
-    color:#333;
-    position:relative
+    position:relative;
+    color:#ededed;
+    background:url(/img/layout/bluepurple-bg.jpg) top left no-repeat !important;
+    background-size:cover;
 }
 
 @media only screen and (min-width: 768px) {
@@ -2718,6 +2722,10 @@ margin: 0px;
 #landing #play h2 {
     margin:0;
     color:#333
+}
+
+#landing #play h2 a {
+    color: #fff;
 }
 
 #landing #play h3 {
