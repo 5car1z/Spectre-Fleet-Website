@@ -1584,6 +1584,10 @@ body#landing {
     text-align: left;
 }
 
+#landing p.text-center {
+    text-align: center;
+}
+
 #landing .row.nomargin {
     margin:0;
     float:left
