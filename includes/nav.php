@@ -19,7 +19,7 @@
             <li <?php getPage("commanders"); ?>  ><a href="/commanders">Our Commanders</a></li>
             <li <?php getPage("doctrines"); ?> ><a href="/doctrines">Our Doctrines</a></li>
             <li <?php getPage("feedback"); ?> ><a href="/feedback">Fleet Feedback Form</a> </li>
-            <li><a href="#">Slack</a>
+            <li><a href="#">Tools</a>
                 <ul class="i2">
                     <li class="col1">
                         <a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a>
