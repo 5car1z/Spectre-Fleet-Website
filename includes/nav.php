@@ -31,7 +31,7 @@
 	    <li <?php getPage("other-games"); ?> ><a href="/other-games">Other Games</a>
 	    </li>
             <li <?php getPage("feedback");getPage("slack-register");getPage("teamspeak"); ?> ><a href="#">Tools</a>
-                <ul class="i3">
+                <ul class="i4">
 					<li><a href="/feedback">Feedback Form</a> </li>
 					<li class="col1"><a href="/teamspeak">Teamspeak 3</a> </li>
 					<li class="col1"><a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a></li>
