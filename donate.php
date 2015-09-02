@@ -63,6 +63,8 @@ require_once "core/IGBFunctions.php";
                     <div class="row">
                         <div class="col-sm-12">
                             <h2 style="text-align: center !important; margin-top: 40px !important;">Donate today to support Spectre Fleet!</h2>
+							<br>
+							<a href=""><img src="" width="64px"></a> <a href="https://www.patreon.com/Spectre_Fleet?ty=h"><img src="http://dev.spectrefleet.com/img/layout/patreon_logo.png" width="64px"></a>
                         </div>
                     </div>
                     <div class="row">
