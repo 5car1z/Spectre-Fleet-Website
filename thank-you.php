@@ -12,7 +12,7 @@
                 <div class="container">
                     <h2 class="title">Thank You!</h2>
 		    <div>
-		        <iframe class="imgur-embed" width="100%" height="325" frameborder="0" src="http://i.imgur.com/5T7KyOQ.gif#embed"></iframe> 
+		        <img src="http://i.imgur.com/5T7KyOQ.gif#embed">
 		    </div>
                 </div>
             </section>
