@@ -2956,11 +2956,8 @@ margin: 0px;
 }
 
 
-#landing #fc img:hover {
-    border: 10px solid rgba(255,255,255,0.1);
-    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.95);
-    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.95);
-    box-shadow: 0 0 20px rgba(0,0,0,0.95);
+#landing #fc img{
+    padding-top: 20px;
 }
 
 #landing #fc p {
