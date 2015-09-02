@@ -19,11 +19,9 @@
             <li <?php getPage("news"); ?> ><a href="/news">Spectre News</a></li>
             <li <?php getPage("commanders"); ?>  ><a href="/commanders">Our Commanders</a></li>
             <li <?php getPage("doctrines"); ?> ><a href="/doctrines">Our Doctrines</a></li>
-            <li><a href="#">Fleet Tools</a>
-                <ul class="i3">
-                    <li class="col1">
-                        <a href="/feedback">Fleet Feedback Form</a>
-                    </li>
+            <li <?php getPage("feedback"); ?> ><a href="/feedback">Fleet Feedback Form</a> </li>
+            <li><a href="#">Slack</a>
+                <ul class="i2">
                     <li class="col1">
                         <a href="https://spectrefleet.slack.com/messages/general/" target="_blank">Spectre Slack</a>
                     </li>
