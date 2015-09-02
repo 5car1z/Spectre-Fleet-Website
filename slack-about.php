@@ -54,13 +54,10 @@ require_once "core/IGBFunctions.php";
                                 <a href="/index"><img height="29" src="/img/layout/logo.png" style="margin-top: -5px;" alt="Spectre Logo" width="85"></a>
                             </li>
                             <li>
-                                <a href="#warships">Section 1</a>
+                                <a href="what">What is Slack?</a>
                             </li>
                             <li>
-                                <a href="#tanks">Section 2</a>
-                            </li>
-                            <li>
-                                <a href="#everyone">Section 3</a>
+                                <a href="#tanks">Already use IRC/XMPP?</a>
                             </li>
                         </ul>
                     </div>
@@ -84,7 +81,9 @@ require_once "core/IGBFunctions.php";
                         <div class="row">
                             <div class="col-sm-6">
 								<p>
-									Section 1 text
+									<h2>What is Slack?</h2>
+
+Slack is a cross-platform collaboration and communication tool that provides real time messaging, file sharing, and group conversations. In Spectre Fleet, we use Slack as a hangout, a place to talk about games, and a network to find new people to play with. Available on both mobile and browser, you can always keep in touch with the community and find out about upcoming events or the latest happenings.
 								</p>
                             </div>
                         </div>
@@ -96,20 +95,11 @@ require_once "core/IGBFunctions.php";
                             <div class="col-sm-6 col-sm-offset-6">
                                 <div class="signup">
 								<p>
-									Section 2 text
+									<h2>Already use IRC or XMPP?</h2>
+
+Good News! Slack has gateways that will allows you to connect to the Spectre Fleet Slack using those protocols. Whether it's in your browser, on your mobile device, or integrated with  a program you already use - Slack is easy to use and will help you keep both connected and involved.
 								</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="spaceships">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-								<p>
-									Section 3 text
-								</p>
                             </div>
                         </div>
                     </div>
