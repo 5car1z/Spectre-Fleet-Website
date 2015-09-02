@@ -12,7 +12,7 @@ require_once "core/IGBFunctions.php";
     <body id="landing">
         <?php include "includes/nav.php"; ?>
        <main class="main-content" id="mainstuff" role="main">
-            <section id="intro" style="padding-top: 20px !important;">
+            <section id="intro">
                 <div class="texture"></div>
                 <div id="vidcontainer">
                     <div class="inner">
@@ -46,7 +46,7 @@ require_once "core/IGBFunctions.php";
                     </div>
                 </div>
             </section>
-            <section id="what">
+            <section id="what" style="padding-top: 20px !important;">
                 <nav id="section-menu">
                     <div class="container">
                         <ul class="nav">

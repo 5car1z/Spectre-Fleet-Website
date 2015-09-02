@@ -294,7 +294,7 @@ $_SESSION['captcha'] = $cap;
                 <input type="submit" value="Register">
             </form>
             <p class="optimize">
-                <a href="https://spectrefleet.slack.com/messages/general/">Head to the Slack page!</a>
+                <a href="https://spectrefleet.slack.com/messages/general/"><img src="/img/layout/spectre_fleet_slack.png"></a>
             </p>
         </div>
         <script src="/lib/jquery/jquery-2.1.4.min.js" type="text/javascript"></script>
