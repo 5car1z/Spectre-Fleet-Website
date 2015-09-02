@@ -18,9 +18,14 @@
             <li <?php getPage("news"); ?> ><a href="/news">Spectre News</a></li>
 			<li><a href="#">Eve Online</a>
 				<ul class="i2">
+					<li><a href="#">Join Spectre</a></li>
 					<li <?php getPage("commanders"); ?>  ><a href="/commanders">Commanders</a></li>
 					<li <?php getPage("doctrines"); ?> ><a href="/doctrines">Doctrines</a></li>
 				</ul>
+			</li>
+			<li><a href="#">War Gaming</a>
+			</li>
+			<li><a href="#">Other Games</a>
 			</li>
             <li><a href="#">Tools</a>
                 <ul class="i2">
