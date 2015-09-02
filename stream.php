@@ -16,8 +16,10 @@ require_once "core/IGBFunctions.php";
                 <div class="container">
                     <h2 class="title">Spectre Fleet TV</h2>
                     <iframe width="1024" height="630" src="https://www.youtube.com/embed/5qCI-JGMcPQ" frameborder="0" allowfullscreen></iframe>
-					<iframe style="float:right;" frameborder="0" scrolling="no" src="https://www.youtube.com/live_chat?v=5qCI-JGMcPQ&amp;dark_theme=1&amp;from_gaming=1&amp;client_version=1.0"></iframe>
 		    <div>
+				<div style="text-align: center; font-size: 30px; padding-top: 15px;">
+					<a href="" onclick="window.open('https://www.youtube.com/live_chat?v=5qCI-JGMcPQ&amp;dark_theme=1&amp;from_gaming=1&amp;client_version=1.0', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"> Stream Chat </a>
+				</div>
                         <a href="http://twitter.com/Spectre_Fleet" target="_blank"><img src="/img/layout/TwitterLogo_blue.png" title="Twitter" width="64px"/></a>
 		        <a href="https://www.youtube.com/c/SpectrefleetGaming" target="_blank"><img src="/img/layout/YouTube-social-circle_red_128px.png" title="Youtube" width="48px"/></a>
 				<a href="https://www.patreon.com/Spectre_Fleet?ty=h" target="_blank"><img src="/img/layout/patreon_logo.png" title="Patreon" width="48px" style="margin-left: 10px;"/></a>
