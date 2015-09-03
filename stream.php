@@ -17,7 +17,7 @@ require_once "core/IGBFunctions.php";
                     <h2 class="title">Spectre Fleet TV</h2>
                     <iframe width="1024" height="630" src="https://www.youtube.com/embed/5qCI-JGMcPQ" frameborder="0" allowfullscreen></iframe>
 					<div>
-						<form style="float: left; padding-top: 20px; padding-left: 49px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<form style="float: left; padding-top: 20px; padding-left: 49px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 							<input type="hidden" name="cmd" value="_s-xclick">
 							<input type="hidden" name="hosted_button_id" value="H22NE6BUUMJ62">
 							<input type="image" src="http://spectrefleet.com/img/layout/donate_to_stream.png" style="border-width: 0px !important;" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
