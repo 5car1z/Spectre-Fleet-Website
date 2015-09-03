@@ -127,7 +127,7 @@ $_SESSION['captcha'] = $cap;
                 padding-top: -50px;
                 padding-left: 25px;
                 padding-right: 25px;
-                padding-bottom: 80px;
+                padding-bottom: 25px;
                 background-color: rgba(78, 78, 78,0.8);
                 border: 1px solid rgba(55,57,59,0.8);
                 border-radius: 5px;
@@ -140,7 +140,7 @@ $_SESSION['captcha'] = $cap;
                 left: 0;
                 right: 0;
                 margin: auto;
-                height:500;
+                height:500px;
             }
 
             h1 {
