@@ -127,13 +127,20 @@ $_SESSION['captcha'] = $cap;
                 padding-top: -50px;
                 padding-left: 25px;
                 padding-right: 25px;
-                padding-bottom: 25px;
+                padding-bottom: 80px;
                 background-color: rgba(78, 78, 78,0.8);
                 border: 1px solid rgba(55,57,59,0.8);
                 border-radius: 5px;
                 box-shadow: 0 0 10px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0 0 10px rgba(0,0,0,0.75);
                 -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.75);
+                position:absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                height:500;
             }
 
             h1 {
@@ -226,6 +233,8 @@ $_SESSION['captcha'] = $cap;
                 position: fixed;
                 right: 7%;
                 top: 25px;
+                float: right;
+                padding-right: inherit;
             }
 
             @media only screen and (max-width: 1025px) {
@@ -236,6 +245,9 @@ $_SESSION['captcha'] = $cap;
         </style>
     </head>
     <body>
+                  <p class="optimize">
+                <a href="https://spectrefleet.slack.com/messages/general/"><img src="/img/layout/spectre_fleet_slack.png"></a>
+            </p>
         <div class="wrapper">
             <div class="message"></div><br>
             <h1>Register A Spectre Fleet Slack account</h1>
@@ -264,9 +276,7 @@ $_SESSION['captcha'] = $cap;
                 <input type="hidden" name="attempt" value="true">
                 <input type="submit" value="Register">
             </form>
-            <p class="optimize">
-                <a href="https://spectrefleet.slack.com/messages/general/"><img src="/img/layout/spectre_fleet_slack.png"></a>
-            </p>
+
         </div>
         <script src="/lib/jquery/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script>
