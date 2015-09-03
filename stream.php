@@ -15,7 +15,7 @@ require_once "core/IGBFunctions.php";
             <section id="fc">
                 <div class="container">
                     <h2 class="title">Spectre Fleet TV</h2>
-                    <iframe src="http://www.twitch.tv/spectrefleet/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe>
+                    <iframe src="http://www.twitch.tv/spectrefleet/embed" frameborder="0" scrolling="no" height="620" width="1024"></iframe>
 					<div>
 						<form style="float: left; padding-top: 20px; padding-left: 49px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 							<input type="hidden" name="cmd" value="_s-xclick">
