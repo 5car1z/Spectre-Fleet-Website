@@ -246,7 +246,7 @@ $_SESSION['captcha'] = $cap;
     </head>
     <body>
                   <p class="optimize">
-                <a href="https://spectrefleet.slack.com/messages/general/"><img src="/img/layout/spectre_fleet_slack.png"></a>
+                <a href="https://spectrefleet.slack.com/messages/general/" target="_blank"><img src="/img/layout/spectre_fleet_slack.png"></a>
             </p>
         <div class="wrapper">
             <div class="message"></div><br>
