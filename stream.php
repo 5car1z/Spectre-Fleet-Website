@@ -24,7 +24,7 @@ require_once "core/IGBFunctions.php";
 							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 						</form>
 						<a href="http://twitter.com/Spectre_Fleet" target="_blank"><img src="/img/layout/TwitterLogo_blue.png" title="Twitter" width="64px"/></a>
-						<a href="http://www.twitch.tv/spectrefleet" target="_blank"><img src="/img/layout/GlitchIcon_white.png" title="Youtube" width="48px"/></a>
+						<a href="http://www.twitch.tv/spectrefleet" target="_blank"><img src="/img/layout/GlitchIcon_white.png" title="Twitch" width="48px"/></a>
 						<a href="https://www.patreon.com/Spectre_Fleet?ty=h" target="_blank"><img src="/img/layout/patreon_logo.png" title="Patreon" width="48px" style="margin-left: 10px;"/></a>
 						<a href="#" style="padding-right: 57px; float: right;" onclick="window.open('http://www.twitch.tv/spectrefleet/chat?popout=', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"><img src="/img/layout/open_stream_chat.png"></a>	
                     </div>
