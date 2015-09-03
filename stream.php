@@ -15,7 +15,7 @@ require_once "core/IGBFunctions.php";
             <section id="fc">
                 <div class="container">
                     <h2 class="title">Spectre Fleet TV</h2>
-                    <iframe width="1024" height="630" src="https://www.youtube.com/embed/5qCI-JGMcPQ" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="http://www.twitch.tv/spectrefleet/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe><a href="http://www.twitch.tv/spectrefleet?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from SpectreFleet on www.twitch.tv</a>
 					<div>
 						<form style="float: left; padding-top: 20px; padding-left: 49px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 							<input type="hidden" name="cmd" value="_s-xclick">
@@ -24,9 +24,9 @@ require_once "core/IGBFunctions.php";
 							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 						</form>
 						<a href="http://twitter.com/Spectre_Fleet" target="_blank"><img src="/img/layout/TwitterLogo_blue.png" title="Twitter" width="64px"/></a>
-						<a href="https://www.youtube.com/c/SpectrefleetGaming" target="_blank"><img src="/img/layout/YouTube-social-circle_red_128px.png" title="Youtube" width="48px"/></a>
+						<a href="http://www.twitch.tv/spectrefleet" target="_blank"><img src="/img/layout/GlitchIcon_white.png" title="Youtube" width="48px"/></a>
 						<a href="https://www.patreon.com/Spectre_Fleet?ty=h" target="_blank"><img src="/img/layout/patreon_logo.png" title="Patreon" width="48px" style="margin-left: 10px;"/></a>
-						<a href="#" style="padding-right: 57px; float: right;" onclick="window.open('https://www.youtube.com/live_chat?v=5qCI-JGMcPQ&amp;dark_theme=1&amp;from_gaming=1&amp;client_version=1.0', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"><img src="/img/layout/open_stream_chat.png"></a>	
+						<a href="#" style="padding-right: 57px; float: right;" onclick="window.open('http://www.twitch.tv/spectrefleet/chat?popout=', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"><img src="/img/layout/open_stream_chat.png"></a>	
                     </div>
 					
                 </div>
