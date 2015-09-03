@@ -7,4 +7,3 @@
 <link href="/lib/Font-Awesome/css/font-awesome.min.css" rel="stylesheet">
 <!--FIXME: load this in locally-->
 <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
-<link href="/favicon.ico" rel="icon" type="image/icon">
