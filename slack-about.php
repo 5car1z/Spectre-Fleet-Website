@@ -63,34 +63,29 @@ require_once "core/IGBFunctions.php";
                     </div>
                 </nav>
             </section>
-                <section id="spaceships">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-								<h2><a href="#">What is Slack?</a></h2>
-								<p>
-Slack is a cross-platform collaboration and communication tool that provides real time messaging, file sharing, and group conversations. In Spectre Fleet, we use Slack as a hangout, a place to talk about games, and a network to find new people to play with. Available on both mobile and browser, you can always keep in touch with the community and find out about upcoming events or the latest happenings.
-								</p>
+            <section id="spaceships">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+		            <h2><a href="#">What is Slack?</a></h2>
+			    <p>Slack is a cross-platform collaboration and communication tool that provides real time messaging, file sharing, and group conversations. In Spectre Fleet, we use Slack as a hangout, a place to talk about games, and a network to find new people to play with. Available on both mobile and browser, you can always keep in touch with the community and find out about upcoming events or the latest happenings.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="play">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-6">
+                            <div class="signup">
+		 	        <h2><a href="#">Already use IRC or XMPP?</a></h2>
+				<p>Good News! Slack has gateways that will allows you to connect to the Spectre Fleet Slack using those protocols. Whether it's in your browser, on your mobile device, or integrated with  a program you already use - Slack is easy to use and will help you keep both connected and involved.</p>
                             </div>
                         </div>
                     </div>
-                </section>
-                <section id="play">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-6">
-                                <div class="signup">
-									<h2><a href="#">Already use IRC or XMPP?</a></h2>
-									<p>
-Good News! Slack has gateways that will allows you to connect to the Spectre Fleet Slack using those protocols. Whether it's in your browser, on your mobile device, or integrated with  a program you already use - Slack is easy to use and will help you keep both connected and involved.
-								</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-				
-				 <div class="container">
+                </div>
+            </section>
+	        <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
                             <h2 style="text-align: center !important; margin-top: 20px !important;"><a href="http://dev.spectrefleet.com/slack-register">Join Spectre Fleet Slack!</a></h2>
@@ -98,8 +93,8 @@ Good News! Slack has gateways that will allows you to connect to the Spectre Fle
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <p></p>
-                            <p></p>
+                        <p></p>
+                        <p></p>
                         </div>
                     </div>
                 </div>

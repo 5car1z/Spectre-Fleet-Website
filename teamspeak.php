@@ -64,7 +64,7 @@ require_once "core/IGBFunctions.php";
                     <div class="row">
                         <div class="col-sm-12">
                             <h2 style="text-align: center !important; margin-top: -13px !important; margin-bottom: -33px;"><a href="http://www.teamspeak.com/downloads"><img src="/img/layout/download_teamspeak.png"></a>
-							<a href="http://invite.teamspeak.com/voice.spectrefleet.com/?channel=Lobby" style="margin-left: 10px"><img src="/img/layout/join_spectre_teamspeak.png"></a></h2>
+			    <a href="http://invite.teamspeak.com/voice.spectrefleet.com/?channel=Lobby" style="margin-left: 10px"><img src="/img/layout/join_spectre_teamspeak.png"></a></h2>
                         </div>
                     </div>
                     <div class="row">
@@ -79,10 +79,8 @@ require_once "core/IGBFunctions.php";
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
-							<h2><a href="#">Teamspeak 3</a></h2>
-								<p>
-Teamspeak is a voice communication tool that allows players to communicate outside of a game client. The teamspeak is open for everyone to use and is not password protected. If you'd like a custom channel added to the Spectre Fleet Teamspeak, contact a commander and we'll make you a channel to use as you please.
-								</p>
+			        <h2><a href="#">Teamspeak 3</a></h2>
+				<p>Teamspeak is a voice communication tool that allows players to communicate outside of a game client. The teamspeak is open for everyone to use and is not password protected. If you'd like a custom channel added to the Spectre Fleet Teamspeak, contact a commander and we'll make you a channel to use as you please.</p>
                             </div>
                         </div>
                     </div>
