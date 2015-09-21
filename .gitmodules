@@ -1,9 +1,0 @@
-[submodule "lib/phealng"]
-	path = lib/phealng
-	url = https://github.com/3rdpartyeve/phealng.git
-[submodule "lib/bootstrap"]
-	path = lib/bootstrap
-	url = https://github.com/twbs/bootstrap.git
-[submodule "lib/Font-Awesome"]
-	path = lib/Font-Awesome
-	url = https://github.com/FortAwesome/Font-Awesome.git
