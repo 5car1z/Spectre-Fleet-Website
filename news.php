@@ -14,15 +14,24 @@ require_once "core/IGBFunctions.php";
        <main class="main-content" id="mainstuff" role="main">
             <section id="fc">
                 <div class="container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar urna massa, at ultricies dolor pellentesque at. Sed tincidunt feugiat elementum. Fusce sed eros non orci auctor laoreet molestie eu leo. Fusce et posuere ante, a mollis lorem. Aenean eu fermentum mauris, ut dictum lorem. Ut dictum nulla vitae magna tempor, non viverra enim tempor. Nunc non justo dui.</p>
-
-                <p>Etiam a dui scelerisque, varius nisl vitae, pharetra erat. Sed ut mauris vel dolor tincidunt aliquet. Ut porttitor mi vel quam ornare, id hendrerit lorem posuere. Sed accumsan et sem nec faucibus. Donec at volutpat purus, et cursus felis. Proin augue nisl, pretium venenatis pharetra ut, euismod posuere sem. Donec luctus sem sit amet diam congue, vitae facilisis lectus tincidunt. Pellentesque sodales rhoncus elit, vel aliquet sapien vestibulum ac. Ut tincidunt eget nibh vel feugiat. Proin ut malesuada orci. Sed nibh arcu, cursus iaculis tincidunt vel, mollis sit amet erat. Morbi in molestie velit. Suspendisse imperdiet, sem a vestibulum semper, nulla eros lobortis erat, et pharetra nulla velit ac elit. Maecenas tristique mi non odio gravida rhoncus. Donec consectetur et nunc ac consequat.</p>
-
-                <p>Vestibulum non accumsan urna, eget finibus libero. Phasellus tincidunt pulvinar nisi a ullamcorper. Aliquam ligula sapien, consectetur et lorem at, ultricies viverra urna. Sed ullamcorper id sem sit amet tempus. Integer ornare libero at nunc viverra, quis tincidunt tortor eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam semper vestibulum sem et blandit. Pellentesque vel tortor finibus, laoreet arcu a, dictum neque. Vestibulum at malesuada dui. Maecenas ultricies imperdiet ex sed eleifend. Maecenas venenatis orci eget odio accumsan, eu varius libero pharetra. Curabitur a erat id neque sodales lacinia nec nec urna. Pellentesque dictum lectus quam, eget euismod odio efficitur at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam sed neque tortor. Nulla non tincidunt arcu.</p>
-
-                <p>In porta nisi vel commodo viverra. Ut facilisis ac felis vitae feugiat. Maecenas vestibulum pellentesque ante, eget sagittis sem sollicitudin id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce et neque enim. Fusce et maximus ante. Integer rhoncus augue ut elit placerat suscipit. Suspendisse placerat dui sapien, non pellentesque lorem maximus eget. Aenean a sem ut magna consequat tristique. Mauris pharetra, nunc in hendrerit consectetur, augue felis aliquet nulla, eget sollicitudin nulla libero non nisi. Cras feugiat purus vel mauris ultrices fermentum. Sed eget rhoncus dui. Aenean id dapibus orci.</p>
-
-                <p>Proin congue tortor nec augue convallis facilisis. Maecenas in nibh ut turpis luctus ultrices vel vitae massa. Aliquam posuere vel enim id tincidunt. Morbi fermentum nunc vel dui lobortis, id interdum metus consectetur. Integer purus diam, efficitur sed tempus eget, scelerisque ut augue. Nulla eu arcu eget augue gravida rutrum. Mauris ullamcorper commodo quam eget rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc cursus lorem a cursus porttitor. Aliquam mauris magna, efficitur nec pretium sit amet, porttitor non nunc. Donec non iaculis erat. Curabitur at volutpat felis, condimentum convallis odio. Suspendisse turpis nibh, mattis sed sem non, tempus pulvinar diam. Donec id eleifend lacus, eu convallis arcu. Donec gravida tempus bibendum.</p>
+				<p>
+                For the last two years Spectre Fleet has existed as a channel based community dedicated to hosting public PvP fleets that anyone and everyone can join. What started as a small group of friends running the occasional cruiser fleet has since grown into the largest and most active public community in the entire game. We’ve camped gates, killed supers, and flown everything from destroyers to faction battleships with triage - all without a parent corporation or alliance.
+				</p><p>
+				However, there are limitations to what we can accomplish as a channel based community. So today, I’m proud to announce the future of the NPSI playstyle - the Spectre Fleet Alliance!
+				</p><p>
+				No, the Spectre Fleet channel is not shutting down, and no, we are not going to stop running public fleets. However, a large number of people who participate in the NPSI communities rely on these groups for the entirety of their PvP content, and we want to provide a home to those players who may not have one otherwise.  Also, the format of Spectre Fleet currently favors large fleets, and small gang PvP is generally impossible. It would be nice to provide an outlet for people to conduct small gang or solo PvP while in the same social environment. No blues, no structure grinds, no sov warfare, no politics... just good old fashioned spaceship combat.
+				</p><p>
+				That’s our promise to you.
+				</p><p>
+				We want this alliance to be a home for anyone who is passionate about PvP, whether you’re a brand new player with lots to learn, or a bittervet with more skillpoints than brains. Now, joining this alliance won’t put you on the fast track to PL, nor will it allow you to rat safely in Deklein, but at least we can promise that you’ll never have to grind sov in Atrons. What makes the Spectre Fleet Alliance unique? Simple. This alliance will operate using the same NPSI rules of engagement we always have! If you’re not in fleet, you’ll be considered a valid target regardless of whether you’re red, neutral, blue, or green.
+				</p><p>
+				For more information, check out our website or join the in-game channel Spectre Fleet. If you’d like to join as an individual, either contact the recruiters of any corporation within the Alliance or wait until we create a Spectre Fleet Corporation. (SoonTM!) If you’d like to join as a Corporation, please contact Jayne Fillon for details and requirements. If you currently partake in Spectre Fleet activities through our channel and are happy with the Alliance or Corporation you are currently a part of, then nothing will change for you.
+				</p><p>
+				All of Spectre Fleet’s major events and activities will remain open to the general public.
+				</p><p>
+				Fly dangerous~
+				Jayne
+				</p>
                 </div>
             </section>
             <div class="clearfix"></div>
