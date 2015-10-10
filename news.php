@@ -14,6 +14,7 @@ require_once "core/IGBFunctions.php";
        <main class="main-content" id="mainstuff" role="main">
             <section id="fc">
                 <div class="container">
+				<h2>Introducing the Spectre Fleet Alliance!</h2>
 				<p>
                 For the last two years Spectre Fleet has existed as a channel based community dedicated to hosting public PvP fleets that anyone and everyone can join. What started as a small group of friends running the occasional cruiser fleet has since grown into the largest and most active public community in the entire game. We’ve camped gates, killed supers, and flown everything from destroyers to faction battleships with triage - all without a parent corporation or alliance.
 				</p><p>
@@ -29,7 +30,7 @@ require_once "core/IGBFunctions.php";
 				</p><p>
 				All of Spectre Fleet’s major events and activities will remain open to the general public.
 				</p><p>
-				Fly dangerous~
+				Fly dangerous~<br />
 				Jayne
 				</p>
                 </div>
