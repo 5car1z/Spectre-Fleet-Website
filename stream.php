@@ -10,25 +10,24 @@ require_once "core/IGBFunctions.php";
         <?php include "includes/static-header.php"; ?>
     </head>
     <body id="landing" class="animate">
-        <?php include "includes/nav.php"; ?>
+       <?php include "includes/nav.php"; ?>
        <main class="main-content" id="mainstuff" role="main">
             <section id="fc">
                 <div class="container">
                     <h2 class="title">Spectre Fleet TV</h2>
                     <iframe src="http://www.twitch.tv/spectrefleet/embed" frameborder="0" scrolling="no" height="620" width="1024"></iframe>
-					<div>
-						<form style="float: left; padding-top: 20px; padding-left: 49px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-							<input type="hidden" name="cmd" value="_s-xclick">
-							<input type="hidden" name="hosted_button_id" value="H22NE6BUUMJ62">
-							<input type="image" src="http://spectrefleet.com/img/layout/donate_to_stream.png" style="border-width: 0px !important;" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-						</form>
-						<a href="http://twitter.com/Spectre_Fleet" target="_blank"><img src="/img/layout/TwitterLogo_blue.png" title="Twitter" width="64px"/></a>
-						<a href="http://www.twitch.tv/spectrefleet" target="_blank"><img src="/img/layout/GlitchIcon_white.png" title="Twitch" width="48px"/></a>
-						<a href="https://www.patreon.com/Spectre_Fleet?ty=h" target="_blank"><img src="/img/layout/patreon_logo.png" title="Patreon" width="48px" style="margin-left: 10px;"/></a>
-						<a href="#" style="padding-right: 57px; float: right;" onclick="window.open('http://www.twitch.tv/spectrefleet/chat?popout=', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"><img src="/img/layout/open_stream_chat.png"></a>	
+		<div>
+		    <form style="float: left; padding-top: 20px; padding-left: 49px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+		        <input type="hidden" name="cmd" value="_s-xclick">
+		        <input type="hidden" name="hosted_button_id" value="H22NE6BUUMJ62">
+		        <input type="image" src="http://spectrefleet.com/img/layout/donate_to_stream.png" style="border-width: 0px !important;" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		    </form>
+			<a href="http://twitter.com/Spectre_Fleet" target="_blank"><img src="/img/layout/TwitterLogo_blue.png" title="Twitter" width="64px"/></a>
+			<a href="http://www.twitch.tv/spectrefleet" target="_blank"><img src="/img/layout/GlitchIcon_white.png" title="Twitch" width="48px"/></a>
+			<a href="https://www.patreon.com/Spectre_Fleet?ty=h" target="_blank"><img src="/img/layout/patreon_logo.png" title="Patreon" width="48px" style="margin-left: 10px;"/></a>
+		        <a href="#" style="padding-right: 57px; float: right;" onclick="window.open('http://www.twitch.tv/spectrefleet/chat?popout=', 'Stream Chat', 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no')"><img src="/img/layout/open_stream_chat.png"></a>	
                     </div>
-					
                 </div>
             </section>
             <div class="clearfix"></div>
@@ -78,4 +77,4 @@ require_once "core/IGBFunctions.php";
                 </div>
             </section>
         </main>
-<?php include "includes/footer.php"; ?>
+        <?php include "includes/footer.php"; ?>

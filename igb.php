@@ -83,9 +83,7 @@ require_once "core/IGBFunctions.php";
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
-								<p>
-									Section 1 text
-								</p>
+	   		        <p>Section 1 text</p>
                             </div>
                         </div>
                     </div>
@@ -94,10 +92,8 @@ require_once "core/IGBFunctions.php";
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6 col-sm-offset-6">
-                                <div class="signup">
-								<p>
-									Section 2 text
-								</p>
+				<div class="signup">
+                                    <p>Section 2 text</p>
                                 </div>
                             </div>
                         </div>
@@ -107,9 +103,7 @@ require_once "core/IGBFunctions.php";
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
-								<p>
-									Section 3 text
-								</p>
+                                <p>Section 3 text</p>
                             </div>
                         </div>
                     </div>
