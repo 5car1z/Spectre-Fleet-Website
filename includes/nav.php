@@ -39,7 +39,7 @@
 					<li class="col1"><a href="/slack-about">About Slack</a></li>
 					<li class="col1"><a href="/slack-register">Register</a></li>
 					<li class="col1"><hr></li>
-					<li class="col1"><a href="mailto:staff@spectrefleet.com">Contact Us</a></li>
+					<li class="col1"><a href="mailto:staff@spectrefleet.com" target="_blank">Contact Us</a></li>
 					</li>
                 </ul>
             </li>
