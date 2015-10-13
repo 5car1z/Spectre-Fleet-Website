@@ -2,17 +2,13 @@
 require_once "core/IGBFunctions.php";
 
 $team = array();
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
-$team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Poomba');
+$team[] = array('id' => 91688663, 'name' => 'Jayne', 'title' => 'CEO and President');
+$team[] = array('id' => 92092845, 'name' => 'Nonnak', 'title' => 'Vice President');
+$team[] = array('id' => 145536783, 'name' => 'Vorn', 'title' => 'Chief of Staff');
+$team[] = array('id' => 91089809, 'name' => 'Doug', 'title' => 'COO');
+$team[] = array('id' => 1978535095, 'name' => 'Ibn', 'title' => 'CTO');
+$team[] = array('id' => 328194260, 'name' => 'Aeonz', 'title' => 'CMO');
+$team[] = array('id' => 94633294, 'name' => 'Elo', 'title' => 'CPO');
 
 ?>
 
@@ -41,9 +37,9 @@ $team[] = array('id' => 91688663, 'name' => 'Jayne Fillon', 'title' => 'Grand Po
 						foreach($member in $team)
 						{
 							?><div class="col-sm-6-command">
-								<h4><?=$member['name']?></h4>
+								<h4><?php echo $member['name']; ?></h4>
 								<p>
-									<img src="//image.eveonline.com/Character/<?=$member['id']?>_256.jpg" alt="<?=$member['name']?>" onclick="<?=printShowInfo(1377,$member['id'])?>">
+									<img src="//image.eveonline.com/Character/<?php echo $member['id']; ?>_256.jpg" alt="<?php echo $member['name']; ?>" onclick="<?=printShowInfo(1377,$member['id'])?>">
 								</p>
 							</div>
 							<?
