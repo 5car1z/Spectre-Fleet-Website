@@ -31,6 +31,7 @@ $team[] = array('id' => 94633294, 'name' => 'Elo', 'title' => 'CPO');
                         </div>
                     </div>
                     <div class="row">
+						<div class="col-sm-6-command"></div>
 						<div class="col-sm-6-command">
 							<h4>Jayne</h4>
 							<h1 style="margin-left: -10px;">President</h1>
