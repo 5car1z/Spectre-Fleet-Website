@@ -17,9 +17,9 @@
         <ul class="clearfix">
             <li <?php getPage("news"); ?> ><a href="/news">Spectre News</a></li>
 			<li <?php getPage("commanders"); getPage("doctrines"); ?> ><a href="#">Eve Online</a>
-				<ul class="i3">
+				<ul class="i2">
 					<li><a href="#">Join Spectre</a></li>
-					<li><a href="/commanders">Commanders</a></li>
+					<!--<li><a href="/commanders">Commanders</a></li>-->
 					<li><a href="/doctrines">Doctrines</a></li>
 				</ul>
 			</li>
@@ -43,6 +43,7 @@
             </li>
             
             <li <?php getPage("stream") ?>><a href="/stream">Stream</a></li>
+			<li <?php getPage("team") ?><a href="/team">Team</a></li>
 		<!--<li <?php getPage("donate"); ?> ><a href="/donate">Donate</a>
             </li>
             -->
