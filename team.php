@@ -39,10 +39,11 @@ $team[] = array('id' => 94633294, 'name' => 'Elo', 'title' => 'CPO');
 							?><div class="col-sm-6-command">
 								<h4><?php echo $member['name']; ?></h4>
 								<p>
-									<img src="//image.eveonline.com/Character/<?php echo $member['id']; ?>_256.jpg" alt="<?php echo $member['name']; ?>" onclick="<?=printShowInfo(1377,$member['id'])?>">
+									<img src="//image.eveonline.com/Character/<?php echo $member['id']; ?>_256.jpg" alt="<?php echo $member['name']; ?>" onclick="<?php printShowInfo(1377,$member['id']); ?>">
 								</p>
+								<h3><?php echo $member['title']; ?></h3>
 							</div>
-							<?
+							<?php
 						}
 					?>
                     </div>
