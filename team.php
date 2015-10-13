@@ -2,7 +2,7 @@
 require_once "core/IGBFunctions.php";
 
 $team = array();
-$team[] = array('id' => 91688663, 'name' => 'Jayne', 'title' => 'CEO and President');
+$team[] = array('id' => 91688663, 'name' => 'Jayne', 'title' => 'President');
 $team[] = array('id' => 92092845, 'name' => 'Nonnak', 'title' => 'Vice President');
 $team[] = array('id' => 145536783, 'name' => 'Vorn', 'title' => 'Chief of Staff');
 $team[] = array('id' => 91089809, 'name' => 'Doug', 'title' => 'COO');
@@ -37,8 +37,7 @@ $team[] = array('id' => 94633294, 'name' => 'Elo', 'title' => 'CPO');
 						{
 							?><div class="col-sm-6-command">
 								<h4><?php echo $member['name']; ?></h4>
-								-
-								<h1><?php echo $member['title']; ?></h1>
+								<h1 style="margin-left: -10px;"><?php echo $member['title']; ?></h1>
 								<p>
 									<img src="//image.eveonline.com/Character/<?php echo $member['id']; ?>_256.jpg" alt="<?php echo $member['name']; ?>" onclick="<?php printShowInfo(1377,$member['id']); ?>">
 								</p>
