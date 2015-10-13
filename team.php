@@ -27,8 +27,7 @@ $team[] = array('id' => 94633294, 'name' => 'Elo', 'title' => 'CPO');
                     <div class="row">
                         <div class="col-sm-6">
                             <div style="text-align: left !important;">
-                                <h2 style="text-align: left !important;">General Commanders</h2>
-                                <h3 style="text-align: left !important; margin-left: 5px;">The Spectre Bosses</h3>
+                                <h2 style="text-align: left !important;">Our Team</h2>
                             </div>
                         </div>
                     </div>
@@ -38,10 +37,11 @@ $team[] = array('id' => 94633294, 'name' => 'Elo', 'title' => 'CPO');
 						{
 							?><div class="col-sm-6-command">
 								<h4><?php echo $member['name']; ?></h4>
+								-
+								<h1><?php echo $member['title']; ?></h1>
 								<p>
 									<img src="//image.eveonline.com/Character/<?php echo $member['id']; ?>_256.jpg" alt="<?php echo $member['name']; ?>" onclick="<?php printShowInfo(1377,$member['id']); ?>">
 								</p>
-								<h3><?php echo $member['title']; ?></h3>
 							</div>
 							<?php
 						}
