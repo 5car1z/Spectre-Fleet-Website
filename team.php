@@ -2,7 +2,6 @@
 require_once "core/IGBFunctions.php";
 
 $team = array();
-$team[] = array('id' => 91688663, 'name' => 'Jayne', 'title' => 'President');
 $team[] = array('id' => 92092845, 'name' => 'Nonnak', 'title' => 'Vice President');
 $team[] = array('id' => 145536783, 'name' => 'Vorn', 'title' => 'Chief of Staff');
 $team[] = array('id' => 91089809, 'name' => 'Doug', 'title' => 'COO');
