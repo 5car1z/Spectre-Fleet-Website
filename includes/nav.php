@@ -43,7 +43,7 @@
             </li>
             
             <li <?php getPage("stream") ?>><a href="/stream">Stream</a></li>
-			<li <?php getPage("team") ?><a href="/team">Team</a></li>
+			<li <?php getPage("team") ?>><a href="/team">Team</a></li>
 		<!--<li <?php getPage("donate"); ?> ><a href="/donate">Donate</a>
             </li>
             -->
