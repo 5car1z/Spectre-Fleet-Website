@@ -34,7 +34,7 @@ $team[] = array('id' => 94633294, 'name' => 'Elo', 'title' => 'CPO');
                     </div>
                     <div class="row">
 					<?php
-						foreach($member in $team)
+						foreach($team as $member)
 						{
 							?><div class="col-sm-6-command">
 								<h4><?php echo $member['name']; ?></h4>
