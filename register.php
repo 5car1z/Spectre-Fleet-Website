@@ -244,6 +244,11 @@ $_SESSION['captcha'] = $cap;
             }
         </style>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<script type="text/javascript">
+			var RecaptchaOptions = { 
+				theme: "blackglass"
+				};
+		</script>
     </head>
     <body>
                   <p class="optimize">
@@ -266,8 +271,8 @@ $_SESSION['captcha'] = $cap;
                 <div>
                     <p class="email-help">Please enter your current email address.</p>
                 </div>
-                <input type="text" id="captcha" name="captcha" placeholder="Captcha (please type the below code here)">
 				<!--
+                <input type="text" id="captcha" name="captcha" placeholder="Captcha (please type the below code here)">
                 <div>
                     <p class="captcha-help">Please enter the captcha text below.</p>
                 </div>
