@@ -13,7 +13,7 @@ function randString($length,
 }
 
 function generateCaptcha($cap) {
-    $images = glob("*.png");
+    $images = glob("captcha/*.png");
     foreach ($images as $image_to_delete) {
         unlink($image_to_delete);
     }
@@ -25,7 +25,7 @@ function generateCaptcha($cap) {
     for ($i=0;$i<1000;$i++) {
         imagesetpixel($image,rand()%200,rand()%50,$pixel_color);
     }
-    $name = 'captcha_'.md5($cap).'.png';
+    $name = 'captcha/captcha_'.md5($cap).'.png';
     imagepng($image, $name);
     return $name;
 }
