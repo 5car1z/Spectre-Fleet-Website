@@ -243,6 +243,7 @@ $_SESSION['captcha'] = $cap;
                 }
             }
         </style>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
                   <p class="optimize">
@@ -266,13 +267,15 @@ $_SESSION['captcha'] = $cap;
                     <p class="email-help">Please enter your current email address.</p>
                 </div>
                 <input type="text" id="captcha" name="captcha" placeholder="Captcha (please type the below code here)">
+				<!--
                 <div>
                     <p class="captcha-help">Please enter the captcha text below.</p>
                 </div>
+				-->
                 <?php
-                $fname = generateCaptcha($cap);
-                display($fname);
-                ?>
+					require_once('recaptchalib.php');
+					echo recaptcha_get_html('6Le1_Q4TAAAAAA5fQqONbZ0VaGxfIRuUmIj_jPOh');
+				?>
                 <input type="hidden" name="attempt" value="true">
                 <input type="submit" value="Register">
             </form>

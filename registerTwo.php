@@ -9,20 +9,21 @@ if (!isset($_POST['email']) || !isset($_POST['fname']) || !isset($_POST['lname']
     echo '<div class="error"><i class="fa fa-times-circle"></i>Error</div>';
 } else if (isset($_POST['attempt']) && ($_POST['attempt'] == "true")) {
     if (empty($_POST["email"])
-        || empty($_POST['captcha'])
         || empty($_POST["fname"])
         || empty($_POST["lname"])) {
         echo '<div class="warning"><i class="fa fa-warning"></i>Need to fill out all fields.</div>';
     } else {
-        $images = glob("*.png");
-        foreach ($images as $image_to_delete) {
-            unlink($image_to_delete);
-        }
-        $cap = $_SESSION['captcha'];
-        $inputCap = $_POST['captcha'];
-        if ($cap != $inputCap){
+		
+		require_once('recaptchalib.php');
+		
+		$resp = recaptcha_check_answer ('6Le1_Q4TAAAAAPCm7zn0kkhPCbnIG_gmf0tx7ezB', $_SERVER["REMOTE_ADDR"], $_POST["recaptcha_challenge_field"], $_POST["recaptcha_response_field"]);
+
+		if (!$resp->is_valid)
+		{
             die('<div class="warning"><i class="fa fa-warning"></i>Invalid captcha</div>');
         }
+		
+		
         $URL = $BASE_URL.time();
         $email = $_POST['email'];
         if (!filter_var( $email, FILTER_VALIDATE_EMAIL )) {
