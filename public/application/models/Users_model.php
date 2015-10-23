@@ -64,7 +64,7 @@ class Users_model extends CI_Model
 		
 		$data = array(
 			'Username' => $this->input->post('username'),
-			'DisplayName' => $slug,
+			'DisplayName' => $this->input->post('character'),
 			'Password' => $password,
 			'EmailAddress' => $this->input->post('email'),
 			//Default user group
