@@ -26,7 +26,7 @@ class Users_model extends CI_Model
 		}
 		
 				//FROM Users LIMIT ($limit||10) OFFSET ($offset||0)
-		$query = $this->db->get($this->tableName, ($limit?:10), ($offset?:0));
+		$query = $this->db->get($this->tableName, ($limit?:$this->config->item('UserListDefaultLength')), ($offset?:0));
 		
 		return $query->result_array();
 	}
@@ -35,6 +35,8 @@ class Users_model extends CI_Model
 	{
 		//URL helper to cleanup the displayname/slug
 		$this->load->helper('url');
+		//GUID Helper to generate GUID
+		$this->load->library('GUID');
 		//Load UserGroups Model, so we can get the "Member" group ID
 		$this->load->model('UserGroups_model');
 		//Load Status Model, so we can get the "pending" group ID
@@ -54,7 +56,7 @@ class Users_model extends CI_Model
 			'GroupMembership' => $this->UserGroups_model->get('Member'),
 			//User is pending email verification
 			'Status' => $this->Status_model->get('pending'),
-			'Notes' => 'VERIFICATION_CODE=' . 
+			'Notes' => 'VERIFICATION_CODE=' . $this->guid->New()
 		);
 		
 		//Insert to database
