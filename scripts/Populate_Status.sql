@@ -1,2 +1,2 @@
 INSERT INTO Status (Name) VALUES
-	('pending'), ('active'), ('disabled'), ('deleted')
+	('pending'), ('active'), ('disabled'), ('deleted');
