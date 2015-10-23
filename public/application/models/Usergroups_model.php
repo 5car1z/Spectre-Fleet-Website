@@ -16,6 +16,6 @@ class Usergroups_model extends CI_Model
 			$this->db->where('Name', $name);
 		}
 
-		return $this->db->get($this->tableName)->result_array()
+		return $this->db->get($this->tableName)->result_array();
 	}
 }
