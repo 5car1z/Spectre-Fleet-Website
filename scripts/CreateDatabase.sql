@@ -27,12 +27,20 @@ CREATE TABLE IF NOT EXISTS `spectrefleet`.`Users` (
   `Password` VARCHAR(45) NOT NULL COMMENT '',
   `EmailAddress` VARCHAR(255) NULL COMMENT '',
   `TSUID` VARCHAR(255) NOT NULL COMMENT '',
-  `GroupMembership` TEXT NULL COMMENT '',
+  `GroupMembership` TEXT NOT NULL COMMENT '',
+  `StatusID` INT NOT NULL COMMENT '',
+  `Notes` TEXT NULL COMMENT '',
   PRIMARY KEY (`ID`, `Username`)  COMMENT '',
   UNIQUE INDEX `ID_UNIQUE` (`ID` ASC)  COMMENT '',
   UNIQUE INDEX `Username_UNIQUE` (`Username` ASC)  COMMENT '',
-  UNIQUE INDEX `EmailAddress_UNIQUE` (`EmailAddress` ASC)  COMMENT '')
-ENGINE = InnoDB;
+  UNIQUE INDEX `EmailAddress_UNIQUE` (`EmailAddress` ASC)  COMMENT '',
+  INDEX `FKstatus_idx` (`StatusID` ASC)  COMMENT '',
+  CONSTRAINT `FKstatus`
+    FOREIGN KEY (`StatusID`)
+    REFERENCES `spectrefleet`.`Statuses` (`ID`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
 
 
 -- -----------------------------------------------------
