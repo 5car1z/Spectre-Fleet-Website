@@ -12,7 +12,7 @@ if(!defined('BASEPATH'))exit('No direct script access allowed');
 class GUID
 {
 	/**
-	 * Function New
+	 * Function NewGUID
 	 *
 	 * Generates a new GUID
 	 *
@@ -20,7 +20,7 @@ class GUID
 	 * @return GUID
 	 *
 	 **/
-	public function New()
+	public function NewGUID()
 	{
 		//If running on windows, use the windows COM to create a GUID
 		if (function_exists('com_create_guid'))

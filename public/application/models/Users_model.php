@@ -71,7 +71,7 @@ class Users_model extends CI_Model
 			'GroupMembership' => $this->UserGroups_model->get('Member'),
 			//User is pending email verification
 			'Status' => $this->Status_model->get('pending'),
-			'Notes' => 'VERIFICATION_CODE=' . $this->guid->New()
+			'Notes' => 'VERIFICATION_CODE=' . $this->guid->NewGUID()
 		);
 		
 		//Insert to database
