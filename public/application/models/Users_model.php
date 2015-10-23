@@ -66,7 +66,7 @@ class Users_model extends CI_Model
 			'Username' => $this->input->post('username'),
 			'DisplayName' => $slug,
 			'Password' => $password,
-			'EmailAddress' => $this->input-post('email'),
+			'EmailAddress' => $this->input->post('email'),
 			//Default user group
 			'GroupMembership' => $this->UserGroups_model->get('Member'),
 			//User is pending email verification
