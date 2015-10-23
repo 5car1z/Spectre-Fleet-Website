@@ -68,9 +68,9 @@ class Users_model extends CI_Model
 			'Password' => $password,
 			'EmailAddress' => $this->input->post('email'),
 			//Default user group
-			'GroupMembership' => $this->Usergroups_model->get('Member')['ID'],
+			'GroupMembership' => $this->Usergroups_model->get('Member')[0]['ID'],
 			//User is pending email verification
-			'Status' => $this->Status_model->get('pending')['ID'],
+			'Status' => $this->Status_model->get('pending')[0]['ID'],
 			'Notes' => 'VERIFICATION_CODE=' . $this->guid->NewGUID()
 		);
 		
