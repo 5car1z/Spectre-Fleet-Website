@@ -10,6 +10,7 @@ class Users extends CI_Controller
 	
 	public function index()
 	{
+		$this->load->helper('url');
 		$data['user'] = $this->Users_model->get();
 		
 		$this->load->view('templates/header');
