@@ -22,4 +22,18 @@ class Users extends CI_Controller
 	{
 		$data['user'] = $this->Users_model->get($slug);
 	}
+	
+	public function create()
+	{
+		$this->load->helper('form');
+		
+		
+		
+	}
+	
+	
+	public function HashPassword($password, $username)
+	{
+		return sha1($this-config->item('User_PasswordSalt') . $password . $username);
+	}
 }
