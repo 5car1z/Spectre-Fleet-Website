@@ -1,4 +1,10 @@
 
+<?php
+if(isset($_SESSION['registrationFailed']) && $_SESSION['registrationFailed'] == true)
+{
+	echo '<h3>Registration Failed</h3>';
+}
+?>
 <form method="post" action="/user/create/">
 Username: <input type="text" name="username"><br />
 Password: <input type="password" name="password"><br />

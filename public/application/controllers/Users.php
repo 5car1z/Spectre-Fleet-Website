@@ -26,10 +26,18 @@ class Users extends CI_Controller
 	public function create()
 	{
 		$this->load->helper('form');
+		$this->load->helper('url');
 		
 		$status = $this->Users_model->create($this->HashPassword($this->input->post('password'), $this->input->post('username')));
-		
-		var_dump($status);
+		if($status)
+		{
+			redirect('/thankyou/registration');
+		}
+		else
+		{
+			$_SESSION['registrationFailed'] = TRUE;
+			redirect('/register/');
+		}
 	}
 	
 	
