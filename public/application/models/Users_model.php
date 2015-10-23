@@ -31,6 +31,21 @@ class Users_model extends CI_Model
 		return $query->result_array();
 	}
 	
+	public function get($username, $password)
+	{
+		$this->db->select('ID, Username, DisplayName, EmailAddress, TSUID, GroupMembership');
+		
+		$this->db->where('Password', $password);
+		
+		$this->db->where('Username', $username);
+		$this->db->or_where('EmailAddress', $username);
+		
+		//SELECT ID, Username, DisplayName, EmailAddress, TSUID, GroupMembership FROM Users WHERE Password = $password
+		//	AND Username = $username OR EmailAddress = $username
+		
+		return $this->db->get($this->tableName)->result_array();
+	}
+	
 	public function create($password)
 	{
 		//URL helper to cleanup the displayname/slug
