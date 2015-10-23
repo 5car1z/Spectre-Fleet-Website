@@ -27,7 +27,9 @@ class Users extends CI_Controller
 	{
 		$this->load->helper('form');
 		
+		$status = $this->Users_model->create($this->HashPassword($this->input-post('password')));
 		
+		var_dump($status);
 		
 	}
 	
