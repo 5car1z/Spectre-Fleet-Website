@@ -10,7 +10,7 @@ class Users extends CI_Controller
 	
 	public function index()
 	{
-		$data['user'] = $this->users_model->get();
+		$data['user'] = $this->Users_model->get();
 		
 		$this->load->view('templates/header');
 		$this->load->view('users/index', $data);
@@ -19,6 +19,6 @@ class Users extends CI_Controller
 	
 	public function view($slug = NULL)
 	{
-		$data['user'] = $this->users_model->get($slug);
+		$data['user'] = $this->Users_model->get($slug);
 	}
 }

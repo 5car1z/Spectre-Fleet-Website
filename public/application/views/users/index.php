@@ -1,1 +1,1 @@
-<h2><?php echo count($users); ?> Users</h2>
+<h2><?php echo count($user); ?> Users</h2>
