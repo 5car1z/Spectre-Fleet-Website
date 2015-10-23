@@ -63,6 +63,19 @@ class Users_model extends CI_Model
 		return $this->db->insert('Users', $data);
 	}
 	
+	public function delete($id)
+	{
+		//Load Status Model, so we can get the "deleted" group ID
+		$this->load->model('Status_model');
+		
+		//Set the new status ID to "DELETED"
+		$this->db->set('StatusID', $this->Status_model->get('deleted'));
+		$this->db->where('ID', $id);
+		//Only permit 1 record to be 'deleted' in this query
+		$this->db->limit(1);
+		$this->db->update($this->tableName);
+	}
+	
 }
 
 ?>
