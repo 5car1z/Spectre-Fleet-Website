@@ -6,5 +6,5 @@ Confirm Password: <input type="password" name="confirmpassword"><br />
 <br />
 Character Name: <input type="text" name="character"><br />
 Email Address: <input type="email" name="email">
-<button type="submit" value="Register">
+<input type="submit" value="Register">
 </form>
