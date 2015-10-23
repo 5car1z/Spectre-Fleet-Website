@@ -2,7 +2,7 @@
 <ul>
 	<php foreach($u in $user)
 	{
-		echo '<li><a href="/user/' . $u['ID'] . '">' . $u['DisplayName'] . '</a></li>';
+		echo "<li><a href='/user/" . $u['ID'] . "'>" . $u['DisplayName'] . '</a></li>';
 	}
 	?>
 </ul>
