@@ -53,7 +53,7 @@ class Users_model extends CI_Model
 		//GUID Helper to generate GUID
 		$this->load->library('GUID');
 		//Load UserGroups Model, so we can get the "Member" group ID
-		$this->load->model('UserGroups_model');
+		$this->load->model('Usergroups_model');
 		//Load Status Model, so we can get the "pending" group ID
 		$this->load->model('Status_model');
 		
