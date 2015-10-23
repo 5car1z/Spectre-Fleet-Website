@@ -2,7 +2,7 @@
 
 class Users_model extends CI_Model
 {
-	public var $tableName = 'Users';
+	public $tableName = 'Users';
 	
 	public function __construct()
 	{
@@ -31,7 +31,7 @@ class Users_model extends CI_Model
 		return $query->result_array();
 	}
 	
-	public function get($username, $password)
+	public function auth($username, $password)
 	{
 		$this->db->select('ID, Username, DisplayName, EmailAddress, TSUID, GroupMembership');
 		
