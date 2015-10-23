@@ -36,6 +36,6 @@ class Users extends CI_Controller
 	
 	public function HashPassword($password, $username)
 	{
-		return sha1($this-config->item('User_PasswordSalt') . $password . $username);
+		return sha1($this->config->item('User_PasswordSalt') . $password . $username);
 	}
 }
