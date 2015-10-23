@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `spectrefleet`.`Users` (
     REFERENCES `spectrefleet`.`Statuses` (`ID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
-ENGINE = InnoDB
+ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
@@ -118,7 +118,7 @@ CREATE TABLE IF NOT EXISTS `spectrefleet`.`CalendarEvent` (
   PRIMARY KEY (`ID`)  COMMENT '',
   UNIQUE INDEX `ID_UNIQUE` (`ID` ASC)  COMMENT '',
   INDEX `fk-eventtype_idx` (`CalendarEventType` ASC)  COMMENT '',
-  CONSTRAINT `fk-eventtype`
+  CONSTRAINT `fk-eventtype-r`
     FOREIGN KEY (`CalendarEventType`)
     REFERENCES `spectrefleet`.`CalendarEventTypes` (`ID`)
     ON DELETE NO ACTION
